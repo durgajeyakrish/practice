@@ -1,0 +1,287 @@
+#sectionA{
+	border:2px solid red;
+	width:100%;
+	height:auto;
+	background-color:pink;
+	margin:5px;
+}
+.sectiona{
+	border:2px solid red;
+	width:98%;
+	height:300px;
+	margin-left:10px;
+}
+.diva{
+	border:2px solid blue;
+	width:100%;
+	height:100px;
+}
+.div1{
+	border:2px solid blue;
+	width:30%;
+	height:90px;
+	color:white;
+	text-align:center;
+	float:left;
+}
+.div2{
+	border:2px solid blue;
+	width:65%;
+	height:90px;
+	float:right;
+}
+.divb{
+	border:2px solid blue;
+	width:50%;
+	height:190px;
+	margin-left:300px;
+}
+.sectionb{
+	border:2px solid red;
+	width:98%;
+	height:100px;
+	margin-left:10px;
+	margin:5px;
+	display:flex;
+	flex-direction:row;
+}
+.divc{
+	border:2px solid blue;
+	width:12%;
+	height:80px;
+	margin-left:45px;
+	margin-top:6px;
+}
+.sectionz{
+    border:2px solid red;
+	width:98%;
+	height:400px;
+	margin-left:10px;
+	margin:5px;
+	display:flex;
+	flex-direction:row;
+}
+.divd{
+	border:2px solid blue;
+	width:48%;
+	height:390px;
+	margin-left:15px;
+	margin-top:2px;
+}
+.div3{
+	border:2px solid blue;
+	width:90%;
+	height:180px;
+	margin-left:25px;
+	margin-top:8px;
+}
+.div001{
+	display:flex;
+	flex-direction:row;
+	border:2px solid blue;
+	width:90%;
+	height:180px;
+	margin-left:25px;
+	margin-top:8px;
+}
+.divi1{
+	border:2px solid blue;
+	width:45%;
+	height:170px;
+	margin-left:18px;
+	margin-top:4px;
+}
+.div4{
+	border:2px solid blue;
+	width:23%;
+	height:80px;
+	margin-left:15px;
+	margin-top:6px;
+}
+.sectionc{
+	border:2px solid red;
+	width:98%;
+	height:100px;
+	margin-left:12px;
+	margin:5px;
+}
+.sectiond{
+	border:2px solid red;
+	width:98%;
+	height:600px;
+	margin-left:10px;
+	margin:5px;
+}
+.div5{
+	border:2px solid blue;
+	width:95%;
+	height:270px;
+	margin-left:25px;
+	margin-top:16px;
+	display:flex;
+	flex-direction:row;
+}
+.divi2{
+	border:2px solid blue;
+	width:30%;
+	height:250px;
+	margin-left:25px;
+	margin-top:6px;
+}
+.divi3{
+	border:2px solid blue;
+	width:30%;
+	height:250px;
+	margin-left:25px;
+	margin-top:6px;
+}
+.dd1{
+	height:200px;
+}
+.dd2{
+	height:500px;
+	display:flex;
+	flex-direction:row;
+}
+.div6{
+	border:2px solid blue;
+	width:30%;
+	height:250px;
+	margin-left:25px;
+	margin-top:230px;
+}
+.sectione{
+	border:2px solid red;
+	width:98%;
+	height:1200px;
+	margin-left:12px;
+	margin:5px;
+}
+.div7{
+	border:2px solid blue;
+	width:95%;
+	height:270px;
+	margin-left:25px;
+	margin-top:16px;
+}
+.div8{
+	border:2px solid blue;
+	width:95%;
+	height:270px;
+	margin-left:25px;
+	margin-top:16px;
+	display:flex;
+	flex-direction:row;
+}
+.divi4{
+	border:2px solid blue;
+	width:30%;
+	height:250px;
+	margin-left:25px;
+	margin-top:6px;
+}
+.sectionf{
+	border:2px solid red;
+	width:98%;
+	height:600px;
+	margin-left:12px;
+	margin:5px;
+}
+.div9{
+	border:2px solid blue;
+	width:95%;
+	height:270px;
+	margin-left:25px;
+	margin-top:16px;
+}
+.div10{
+	border:2px solid blue;
+	width:95%;
+	height:270px;
+	margin-left:25px;
+	margin-top:16px;
+	display:flex;
+	flex-direction:row;
+}
+.divi5{
+	border:2px solid blue;
+	width:22%;
+	height:250px;
+	margin-left:25px;
+	margin-top:6px;
+}
+.mm{
+	height:200px;
+}
+.sectiong{
+	border:2px solid red;
+	width:98%;
+	height:400px;
+	margin-left:10px;
+	margin:5px;
+	display:flex;
+	flex-direction:row;
+}
+.div11{
+	border:2px solid blue;
+	width:48%;
+	height:390px;
+	margin-left:15px;
+	margin-top:2px;
+}
+.divi6{
+	border:2px solid blue;
+	width:90%;
+	height:180px;
+	margin-left:25px;
+	margin-top:8px;
+}
+.divi7{
+	border:2px solid blue;
+	width:90%;
+	height:180px;
+	margin-left:25px;
+	margin-top:8px;
+	display:flex;
+	flex-direction:row;
+}
+.dive{
+	border:2px solid blue;
+	width:45%;
+	height:170px;
+	margin-left:18px;
+	margin-top:4px;
+}
+.sectionh{
+	border:2px solid red;
+	width:98%;
+	height:270px;
+	margin-left:12px;
+	margin-top:16px;
+	display:flex;
+	flex-direction:row;
+}
+.div12{
+	border:2px solid blue;
+	width:22%;
+	height:250px;
+	margin-left:25px;
+	margin-top:6px;
+}
+.sectioni{
+	border:2px solid blue;
+	width:98%;
+	height:160px;
+	margin-left:12px;
+	margin-top:8px;
+	margin-bottom:9px;
+	display:flex;
+	flex-direction:row;
+}
+.div13{
+	border:2px solid blue;
+	width:45%;
+	height:135px;
+	margin-left:39px;
+	margin-top:8px;
+}
