@@ -1,0 +1,179 @@
+.container
+{
+	margin:auto;
+	width:90%;
+}
+body{
+	font-family:sans-serif;
+}
+.logo{
+	width:20%;
+	height:3vh;
+	padding:10px;
+	margin:15px;
+}
+.bar{
+	width:55%;
+	height:4vh;
+	margin-left:400px;
+	margin-top:-10px;
+}
+hr{
+	margin:5px;
+}
+.bar{
+	display:flex;
+}
+.bar a{
+	text-decoration:none;
+	text-align:center;
+	margin-top:-20px;
+}
+.navlinks{
+	color:#838282;
+	padding:1rem;
+}
+.navlinks:hover{
+	color:#BDA787;
+}
+.img-content h1{
+	font-size:2.5rem;
+	color:white;
+}
+.img-content h5{
+	color:white;
+}
+.img{
+	position:relative;
+}
+.img-content{
+	position:absolute;
+	top:230px;
+	left:150px;
+}
+.icn{
+	color:white;
+}
+.para{
+	color:#838282;
+}
+.para1{
+	color:#838282;
+}
+.bor{
+	border:1rem solid #BDA787;
+	width:18rem;
+	height:22rem;
+	margin-left:3rem;
+	margin-top:7rem;
+	position:relative;
+}
+.about1{
+	display:flex;
+	flex-direction:row;
+}
+.para{
+	width:50%;
+	margin-left:5rem;
+	margin-top:4rem;
+}
+.profile1{
+	width:18rem;
+	margin-top:-3rem;
+	margin-left:2rem;
+}
+.about1{
+	display:flex;
+	flex-direction:row;
+}
+.cont{
+	display:flex;
+	flex-direction:row;
+}
+.inc{
+	color:#BDA787;
+	font-size:2rem;
+}
+.ser p{
+	color:#838282;
+}
+.navlink2 a{
+	color:#838282;
+}
+.navy a{
+	text-decoration:none;
+	color:#838282;
+}
+.navlinks2:hover{
+	color:#BDA787;
+}
+.navlink2{
+	text-align:center;
+	justify-content:center;
+}
+.pho{
+	text-align:center;
+}
+.fli{
+	text-align:center;
+}
+.navy1{
+	display:flex;
+	flex-direction:row;
+}
+.imm{
+	padding:20px;
+}
+.joha{
+	display:flex;
+	flex-direction:row;
+}
+.imm1{
+	padding:10px;
+}
+.joha p{
+	color:#838282;
+}
+.add p{
+	color:#838282;
+}
+.box1{
+	padding:20px;
+	border-radius:3px 3px;
+	width:35%;
+}
+.box2{
+	padding:23px;
+	width:78%;
+	border-radius:3px 3px;
+}
+.box3{
+	padding:50px;
+	width:72%;
+	border-radius:3px 3px;
+}
+.box4{
+	background-color:#333333;
+	text-decoration:none;
+	padding:12px;
+	justify-content:center;
+	margin-left:180px;
+	width:72%;
+	color:white;
+}
+.getin1{
+	display:flex;
+	flex-direction:row;
+}
+.form{
+	margin-left:300px;
+}
+.foot p{
+	color:#838282;
+	text-align:center;
+	justify-content:center;
+	font-size:0.7rem;
+}
+span{
+	color:black;
+}
