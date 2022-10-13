@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta http-eqiv="X-UA-compatible" content="IE=Rdge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>transition</title>
+	<style>
+	 .transition{
+	  border:2px solid red;
+	  width:10rem;
+	  height:5rem;
+	  color:white;
+	  text-align:center;
+	  font-size:2rem;
+	  background-color:black;
+	  transition:2s;
+	  }
+	  .transition:hover{
+	  width:20rem;
+	  }
+	  
+      .delay{
+      width:30%;
+      height: 10rem;
+	  color:white;
+	  text-align:center;
+	  font-size:2rem;
+      background: red;
+      transition: width 3s;
+      transition-delay:1s;
+      }
+      .delay:hover {
+      width: 20rem;
+      }
+	  
+	  .duration{
+      width: 5rem;
+      height: 5rem;
+	  color:white;
+	  text-align:center;
+	  font-size:2rem;
+      background: red;
+      background: red;
+     transition-duration: 2s;
+     }
+     .duration:hover {
+     width: 20rem;
+     }
+	 
+	 .property{
+     width: 5rem;
+     height: 5rem;
+	 color:white;
+	 text-align:center;
+	 font-size:2rem;
+     background: red;
+     transition-property: width, height;
+     transition-duration: 2s;
+     }
+     .property:hover {
+     width: 20rem;
+     height: 20rem;
+     }
+	 
+	 div {
+     width: 100px;
+     height: 50px;
+     background: red;
+     color: white;
+     font-weight: bold;
+     transition: width 2s;
+     }
+			.transition{
+	  border:2px solid red;
+	  width:5rem;
+	  height:5rem;
+	  color:white;
+	  text-align:center;
+	  font-size:2rem;
+	  background-color:red;
+	  transition:2s;
+	  }
+	  .transition:hover{
+	  width:20rem;
+	  }
+	  
+      .delay{
+      width: 5rem;
+      height: 5rem;
+	  color:white;
+	  text-align:center;
+	  font-size:2rem;
+      background: orange;
+      transition: width 3s;
+      transition-delay:1s;
+      }
+      .delay:hover {
+      width: 20rem;
+      }
+	  
+	  .duration{
+      width: 5rem;
+      height: 5rem;
+	  color:white;
+	  text-align:center;
+	  font-size:2rem;
+      background: red;
+      background: red;
+     transition-duration: 2s;
+     }
+     .duration:hover {
+     width: 20rem;
+     }
+	 
+	 .property{
+     width: 5rem;
+     height: 5rem;
+	 color:white;
+	 text-align:center;
+	 font-size:2rem;
+     background:yellow;
+     transition-property: width, height;
+     transition-duration: 2s;
+     }
+     .property:hover {
+     width: 20rem;
+     height: 20rem;
+     }
+	 
+	 div {
+     width: 100px;
+     height: 50px;
+     background:green;
+     color: white;
+     font-weight: bold;
+     transition: width 2s;
+     }
+		.div1 {transition-timing-function: linear;}
+		.div2 {transition-timing-function: ease;}
+		.div3 {transition-timing-function: ease-in;}
+		.div4 {transition-timing-function: ease-out;}
+		.div5 {transition-timing-function: ease-in-out;}
+		.div1 {transition-timing-function: cubic-bezier(0.8,1,1,1);}
+		.div2 {transition-timing-function: cubic-bezier(0.25,0.1,0.25,1);}
+		.div3 {transition-timing-function: cubic-bezier(0.42,0,1,1);}
+		.div4 {transition-timing-function: cubic-bezier(0,0,0.58,1);}
+		.div5 {transition-timing-function: cubic-bezier(0.42,0,0.58,1);}
+		div:hover {
+		width: 300px;
+		}
+	</style>
+</head>
+<body>
+		<!-- <transition> -->
+			<!-- transition
+			transition-delay
+			transition-duration
+			transition-property
+			transition-timing-function -->
+
+
+			 1.transition
+		 <div class="transition">transition</div>
+		 
+		 2.transition-delay
+		 <div class="delay">transition</div>
+		 
+		 3.transition-duration
+		 <div class="duration">transition</div>
+		 
+		 4.transition-property
+		 <div class="property">transition</div>
+		 
+		 5.transition-timing-funtion
+		 <div class="div1">linear</div>
+         <div class="div2">ease</div>
+         <div class="div3">ease-in</div>
+         <div class="div4">ease-out</div>
+         <div class="div5">ease-in-out</div>
+		 <div class="div1">cubic-bezier(0,0,1,1)</div>
+         <div class="div2">cubic-bezier(0.25,0.1,0.25,1)</div>
+						<!-- ease - specifies a transition effect with a slow start, then fast, then end slowly (this is default)
+						linear - specifies a transition effect with the same speed from start to end
+						ease-in - specifies a transition effect with a slow start
+						ease-out - specifies a transition effect with a slow end
+						ease-in-out - specifies a transition effect with a slow start and end
+						cubic-bezier(n,n,n,n) - lets you define your own values in a cubic-bezier function
+ -->
+</body>	
+</html>
