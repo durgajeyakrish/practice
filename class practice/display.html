@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta http-eqiv="X-UA-compatible" content="IE=Rdge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>practice</title>
+	<style>
+	  div{
+		font-size:2rem;
+	}
+   .none{
+		display:none;
+
+   }
+   .inline{
+		display:inline;
+   }
+   .block{
+		display:block;
+		
+   }
+   .inline-block{
+		display:inline-block;
+		
+   }
+   .flex{
+		width:100%;
+   }
+   .flex{
+		wdith:20rem;
+		height:10rem;
+		border:2px solid blue;
+        display:flex;
+        flex-direction:column-reverse;
+        }
+    direction{
+        width:5rem;
+        height:3rem;		
+   }
+   #main {
+		width: 300px;
+		height: 100px;
+		display: flex;
+		}
+
+	#main div:nth-of-type(1) {
+		flex-basis: 60px;
+		}
+	#flex1 {
+		width: 350px;
+		height: 100px;
+		border: 1px solid #c3c3c3;
+		display: flex;
+	}
+	#flex div:nth-of-type(1) {flex-grow: 1;}
+	#flex div:nth-of-type(2) {flex-grow: 3;}
+	#flex div:nth-of-type(3) {flex-grow: 2;}
+	#flex div:nth-of-type(4) {flex-grow: 1;}
+	#flex div:nth-of-type(5) {flex-grow: 1;}
+		#shrick div:nth-of-type(2) {
+		flex-shrink: 3;
+		}
+				#wrap {
+			width: 200px;
+			height: 200px;
+			border: 1px solid #c3c3c3;
+			display: flex;
+			flex-wrap: wrap;
+		}
+   </style>
+</head>
+<body>
+							<!-- <display> -->
+		<div>none <p class="none"></p></div>
+		<div>inline <p class="inline"></p></div>
+		<div>block <p class="block"></p></div>
+		<div>inline-block <p class="inline-block"></p></div>
+		
+							<!-- flex -->
+		<!-- flex-basis, flex-direction, flex-flow, flex-grow, flex-shrink, flex-wrap  -->
+		
+		        <!-- 1.flex-direction -->
+				<!-- <row,row-reverse,column,column-reverse> -->
+		<div class="flex">
+		   <div style="background-color:red">FLEX DIRECTION1</div>
+		   <div style="background-color:pink">FLEX DIRECTION2</div>
+		   <div style="background-color:orange">FLEX DIRECTION3</div>
+		   <div style="background-color:blue">FLEX DIRECTION4</div>
+		</div>
+						<!-- <flex-basis> -->
+		
+			<div id="main">
+				<div style="background-color:blue;">blue</div>
+				<div style="background-color:lightblue;">lightblue</div>
+				<div style="background-color:purble;">purble</div>
+				<div style="background-color:yellow;">yellow</div>
+				<div style="background-color:lightgrey;">lightgrey</div>
+			</div>
+			
+						<!-- <flexgrow> -->
+		
+			<div id="flex1">
+				<div style="background-color:blue;">blue</div>
+				<div style="background-color:lightblue;">lightblue</div>
+				<div style="background-color:purble;">purble</div>
+				<div style="background-color:yellow;">yellow</div>
+				<div style="background-color:lightgrey;">lightgrey</div>
+			</div>
+						<!-- <flex-shrink> -->
+		<div id="shrick">
+				<div style="background-color:blue;">blue</div>
+				<div style="background-color:lightblue;">lightblue</div>
+				<div style="background-color:purble;">purble</div>
+				<div style="background-color:yellow;">yellow</div>
+				<div style="background-color:lightgrey;">lightgrey</div>
+			</div>
+			
+						<!-- <flex-wrap> -->
+					<div id="shrick">
+				<div style="background-color:blue;">blue</div>
+				<div style="background-color:lightblue;">lightblue</div>
+				<div style="background-color:purble;">purble</div>
+				<div style="background-color:yellow;">yellow</div>
+				<div style="background-color:lightgrey;">lightgrey</div>
+			</div>
+			
+</body>
+
+</html>	
