@@ -557,7 +557,7 @@ body{
 		color:white;
 	}
     .about-icon{
-		 color: #428bca;
+		color: #428bca;
         font-size: 2rem;
         display: flex;
         align-items: center;
@@ -1767,18 +1767,21 @@ body{
 }
 .contact-address{
     width:100%;
-	box-shadow: 0 0 30px rgb(214 215 216 / 60%);
+	box-shadow: 0 0 15px rgb(0 0 0/ 10%);
 	padding:1.5rem 0;
+	margin-top:15px;
 }
 .contact-email{
     width: 100%;
-	box-shadow: 0 0 30px rgb(214 215 216 / 60%);
+	box-shadow: 0 0 15px rgb(0 0 0/ 10%);
 	padding:1.5rem 0;
+	margin-top:15px;
 }
 .contact-num{
     width: 100%;
-	box-shadow: 0 0 30px rgb(214 215 216 / 60%);
-	padding:1.5rem 0;	
+	box-shadow: 0 0 15px rgb(0 0 0/ 10%);
+	padding:1.5rem 0;
+margin-top:15px;	
 }
 .contact-row i{
     font-size: 2rem;
@@ -1806,7 +1809,7 @@ body{
 .contact-form{
 	padding:2rem;
 	margin-top:2rem;
-	box-shadow: 0 0 30px rgb(214 215 216 / 60%);
+	box-shadow: 0 0 15px rgb(0 0 0/ 10%);
 }
 input:focus{
 	outline:none;
