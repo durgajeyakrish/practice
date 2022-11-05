@@ -1,0 +1,67 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.container{
+	width:85%;
+	margin:auto;
+}
+.body{
+	background-color:#85C1E9;
+}
+.lorem{
+	margin-top:2rem;
+	box-shadow: 0 0 10px #ccc;
+	height:100vh;
+}
+.lorem h2{
+	font-size:2rem;
+	text-align:center;
+	color:#2E86C1;
+}
+.lorem h1{
+	font-size:1.2rem;
+	margin-top:1rem;
+	color:#2E86C1;
+	text-align:center;
+	
+	
+}
+.mamba h2::after{
+	 content: "";
+	 position: absolute;
+     width: 4rem;
+     height: 0.2rem;
+     background:#ccc;
+     margin:auto;
+	 margin-left:-6.5rem;
+     margin-top:2.7rem;
+}
+.lorem p{
+	color:#ccc;
+	text-align:center;
+	margin-top:1rem;
+}
+.lorem h3{
+	font-size:1.5rem;
+	text-align:center;
+	color:#2E86C1;
+}
+.lo2{
+	display:flex;
+	width:100%;
+	gap:1.4rem;
+	margin-top:3rem;
+}
+.lo3{
+	display:flex;
+	width:100%;
+	gap:1.4rem;
+	margin-top:3rem;
+}
+.lorem2 iconify-icon{
+	color:#2E86C1;
+	text-align:center;
+	font-size:2rem;
+}
