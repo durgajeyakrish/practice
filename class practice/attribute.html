@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta http-eqiv="X-UA-compatible" content="IE=Rdge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>practice</title>
+	<style>
+	a[target] {
+	background-color: red;
+}
+	[class^="top"] {
+		background: yellow;
+}
+	[class|=top] {
+  background:pink;
+}
+[title~=nature] {
+  border: 5px solid yellow;
+}
+	[class$="test"] {
+  background:blue;
+}
+	[class*="se"] {
+	background: green;
+}
+
+	</style>
+</head>
+<body>
+			<!-- <attributes> -->
+			<!-- <[attribute],[attributes="value"],[attributes~="value"],[attributes|="value"],[attributes^="value"],[attribute$="value"],[attributes*="value"] -->
+		<a href="https://www.w3schools.com">w3schools.com</a>
+		<a href="http://www.disney.com" target="_blank">disney.com</a>
+		<a href="http://www.wikipedia.org" target="_top">wikipedia.org</a>
+		
+		<h2>CSS [attribute^="value"] Selector</h2>
+
+			<h1 class="top-header">Welcome</h1>
+			<p class="top-text">Hey students</p>
+			<p class="topcontent">Are you learning CSS?</p>
+			
+			<h2>CSS [attribute|="value"] Selector</h2>
+
+				<h1 class="top-header">Welcome</h1>
+				<p class="top-text">Hey students</p>
+				<p class="topcontent">Are you learning CSS?</p>
+			<h2>CSS [attribute~="value"] Selector</h2>
+			<p>All images with the title attribute containing the word "flower" get a yellow border.</p>
+
+				<img src="img/nature1.jfif" title="nature" width="150" height="113">
+				<img src="img/nature2.jfif" title="nature" width="224" height="162">
+				<img src="img/img_flwr.gif" title="flower" width="200" height="358">
+					<div class="first_test">The first div element.</div>
+					<div class="second">The second div element.</div>
+					<div class="my-test">The third div element.</div>
+					<p class="mytest">This is some text in a paragraph.</p>
+					
+					<h2>CSS [attribute*="value"] Selector</h2>
+
+						<div class="first_test">The first div element.</div>
+						<div class="second">The second div element.</div>
+						<div class="my-test">The third div element.</div>
+						<p class="mytest">This is some text in a paragraph.</p>
+
+
+</body>
+</html>		
+
+	
+		
