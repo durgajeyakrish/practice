@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<title>practice</title>
+	</head>
+	<style>
+		table, tr,th,tr,td{
+			border:2px solid black;
+		}
+	</style>
+<body>
+	<!-- <table> -->
+	<table>
+		<tr>
+			<th>Array prototype</th>
+			<th>Usage</th>
+			<th>Input</th>
+			<th>Output</th>
+		</tr>
+		<tr>
+			<td>Push</td>
+			<td>The push() method is used to add a new element in array with the end of an array. </td>
+			<td>dress=["kids wear","western outfits","women wear"]</td>
+			<td>kids wear, western outfits ,women wear ,sareecollection</td>
+		</tr>
+		<tr>
+			<td>Splice</td>
+			<td>The splice() method is used to add a new element in position.</td>
+			<td>dress=["kids wear","western outfits","women wear"]</td>
+			<td>kids wear,western outfits,sareecollection,women wear</td>
+		</tr>
+		<tr>
+			<td>Unshift</td>
+			<td>The unshift() method adds one or more elements to the beginning of an array and returns the new length of the array</td>
+			<td>dress=["kids wear","western outfits","women wear"]</td>
+			<td>sareecollection ,kids wear ,western outfits, women wear</td>
+		</tr>
+		<tr>
+			<td>ForEach</td>
+			<td>forEach()method is an iterative method. It calls a provided callbackFn function once for each element in an array in ascending-index order.It is an advanced method "for" loop.</td>
+			<td>color=["pink","blue","red"];
+			color.forEach(function(color,i,array)</td>
+			<td>0 pink array[3],1 blue array[3],2 red array[3];</td>
+		</tr>
+		<tr><td>concat</td>
+			<td> The concat() method is used to join two or more array.</td>
+			<td>let arr1=["apple","orange"];
+			let arr1=["watermelon","grapes"];
+			</td>
+			<td>apple,orange,watermelon,grapes</td>
+		</tr>
+		<tr>
+			<td>constructor</td>
+			<td>The constructor() method is used to allow to add new methods and properties to the Array() object. If the method is constructed, then it will available for every array. When constructing a property, All arrays will be given the property, and its value, as default</td>
+			<td>let arr1=["apple","orange"];
+			let arr1=["watermelon","grapes"];</td>
+			<td>apple,orange,watermelon,grapes</td>
+		</tr>
+		<tr>
+			<td>Filter</td>
+			<td>The filter() method creates a new array filled with elements that pass a test provided by a function. The filter() method does not execute the function </td>
+			<td>let age=[19,75,28,16,5,9]>18</td>
+			<td>19,75,28</td>
+		</tr>
+		<tr>
+			<td>map</td>
+			<td>The map() method is an iterative method. It calls a provided callbackFn function once for each element in an array and constructs a new array from the results. map() creates a new array from calling a function for every array element. map() calls a function once for each element in an array</td>
+			<td>let arr=["milk","coffee","blacktea"];
+			items=arr.map(function(arr){
+			return arr.uppercase();};
+			</td>
+			<td>MILK, COFFEE ,BLACKTEA</td>
+		</tr>
+		<tr>
+			<td>findIndex</td>
+			<td>The findIndex() method returns the index of the first element in an array that satisfies the provided testing function.</td>
+			<td>let icecreams=["name:blackcurrent" price:150,"name:venila" price:100,"name:butterscotch" price:180,"name:italian delight" price:200]
+			let icecreams.findIndex(function(i){
+			return i.price<=150)}
+			</td>
+			<td>0,1</td>
+		</tr>
+		<tr>
+			<td>length</td>
+			<td>The length() property of an Array object represents the number of elements in that array</td>
+			<td>let array=[1,2,3,4,5,6,7,8,9,0];
+			array.length;
+			</td>
+			<td>9</td>
+		</tr>
+		<tr>
+			<td>reduce</td>
+			<td>The reduce() method executes a user-supplied "reducer" callback function on each element of the array, in order, passing in the return value from the calculation on the preceding element. </td>
+			<td>let array=[3,8,0,1]
+			let i=4;
+			reduce=array+i;
+			</td>
+			<td>16</td>
+		</tr>
+		<tr>
+			<td>shift</td>
+			<td>The shift() method removes the first element from an array and returns that removed element</td>
+			<td>let array=[12,48,85,33];
+			array.shift();
+			</td>
+			<td>array=12[48,85,33]</td>
+		</tr>
+		<tr>
+			<td>pop</td>
+			<td>The pop() method removes (pops) the last element of an array. The pop() method changes the original array. The pop() method returns the removed element</td>
+			<td>let array=[89,76,999,678,98];
+			array.pop();
+			
+			</td>
+			<td>89,76,999,678</td>
+		</tr>
+		<tr>
+			<td>reverse</td>
+			<td>The reverse() method reverses the order of the elements in an array. The reverse() method overwrites the original array</td>
+			<td>let array=[7,9,4,5,6,1];
+			array.reverse();
+			</td>
+			<td>1,6,5,4,9,7</td>
+		</tr>
+		<tr>
+			<td>findLastIndex</td>
+			<td>The findLastIndex() method iterates the array in reverse order and returns the index of the first element that satisfies the provided testing function.</td>
+			<td>let array=["sleeping","walking","dancing","weeping"];
+			array.findLastIndex(weeping);
+			</td>
+			<td>3</td>
+		</tr>
+		
+	</table>
+	
+
+</body>
+</head>
+</body>
