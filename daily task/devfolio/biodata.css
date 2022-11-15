@@ -1,0 +1,14 @@
+*{
+	margin:0;
+	padding:0;
+	left:0;
+	right:0;
+	box-sizing:border-box;
+}
+body{
+	font-family:"Open Sans", sans-serif;
+}
+.container{
+	width:85;
+	margin:auto;
+}
