@@ -8,28 +8,46 @@
 </head>
 <body>
 <script>
-	const particulars={
-		name:'j.durga',
-		age:'20',
-		profession:'software devloper',
-		location:'chennai',
-		mobileno:8870620696,
-	};
-	for(let par in particulars){
-		console.log(par+" " +particulars[par]);
-		}
+	<!-- const particulars={ -->
+		<!-- name:'j.durga', -->
+		<!-- age:'20', -->
+		<!-- profession:'software devloper', -->
+		<!-- location:'chennai', -->
+		<!-- mobileno:8870620696, -->
+	<!-- }; -->
+	<!-- for(let par in particulars){ -->
+		<!-- console.log(par+" " +particulars[par]); -->
+		<!-- } -->
 	<!-- for in -->
-		let array=["one","two","three","four"];
-			for(let array2 in array){
-				document.write(array2);
-				document.write("<br>");
-			}
+		<!-- let array=["one","two","three","four"]; -->
+			<!-- for(let array2 in array){ -->
+				<!-- document.write(array2); -->
+				<!-- document.write("<br>"); -->
+			<!-- } -->
 			
 		<!-- for of	 -->
-		let array1=["one","two","three","four"];
-			for(let array3 of array1){
-				document.write(array3);
+		<!-- let array1=["one","two","three","four"]; -->
+			<!-- for(let array3 of array1){ -->
+				<!-- document.write(array3); -->
+			<!-- } -->
+			
+		
+	<!-- array in object -->
+		function icecream(name,price){
+			this.Name=name;
+			this.Price=price;
 			}
+			let ice=new icecream("blackcurrent",180)
+				console.log(ice.Name);
+				
+				
+		<!-- time out		 -->
+		function welcome(){
+		document.write("hello world");
+		document.write("<br>");
+		}
+		setInterval(welcome,3000);
+		
 </script>
 	
 </body>
