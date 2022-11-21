@@ -83,6 +83,14 @@
 .personalinfo p{
 	font-size:1.3rem;
 } */
+.bor{
+	border:1rem solid #BDA787;
+	width:18rem;
+	height:22rem;
+	margin-left:3rem;
+	margin-top:7rem;
+	position:relative;
+}
 .skil h1{
 	color:#D98880;
 	margin-top:2.5rem;
