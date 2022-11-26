@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<title>practice</title>
+	</head>
+<body>
+<script>
+		let str1=prompt("Enter the string"),check=0,vow="AEIOUaeiou";
+			str1=str1.trim();
+				for(i=0;i<str1.length;i++){  // Iterating the given string 
+				for(j=0;j<vow.length;j++)  // Iterating the vow string
+				{
+					if(str1[i]==vow[j]){
+					check++;			// If any vowels present then check gets incremented
+				}
+			}
+		}
+		if(check)
+			console.log("The Given string has Vowel");
+		else
+			console.log("The Given string has no Vowel");
+</script>
+</body>
+</html>
