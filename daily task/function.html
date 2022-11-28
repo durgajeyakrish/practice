@@ -8,26 +8,32 @@
 <body>
 <script>
   
-  <!-- function value(a,b ) -->
-  <!-- { -->
-	<!-- A=a+b; -->
-	<!-- B=a-b; -->
-	<!-- C=a*b; -->
-	<!-- D=a/b; -->
-	<!-- M=a%b; -->
-	<!-- F=[A,B,C,D,M]; -->
-	<!-- return F; -->
-	<!-- } -->
-	<!-- var G=value(5,10) -->
-		<!-- console.log(F); -->
+  function value(a,b )
+  {
+	A=a+b;
+	B=a-b;
+	C=a*b;
+	D=a/b;
+	M=a%b;
+	F=[A,B,C,D,M];
+	return F;
+	}
+	var G=value(5,10)
+		console.log(F);
 		
 	var a=[1,2,3,4,5,6];
 	var b=[];
 		for(i=1;i<=a.length;i++){
 			document.write(i);
 		}
-			
-		
+	
+	var a=[1,2,3,4,5,6];
+	var b=[];
+		for(i=1;i<=a.length;i++){
+			b[i]=a[i];
+			document.write(i);
+			document.write("<br>");
+		}
 
 </script>
 </body>
