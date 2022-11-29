@@ -7,20 +7,57 @@
 	</head>
 <body>
 <script>
-		let str1=prompt("Enter the string"),check=0,vow="AEIOUaeiou";
-			str1=str1.trim();
-				for(i=0;i<str1.length;i++){  // Iterating the given string 
-				for(j=0;j<vow.length;j++)  // Iterating the vow string
-				{
-					if(str1[i]==vow[j]){
-					check++;			// If any vowels present then check gets incremented
+		<!-- let str1=prompt("Enter the string"),check=0,vow="AEIOUaeiou"; -->
+			<!-- str1=str1.trim(); -->
+				<!-- for(i=0;i<str1.length;i++){  // Iterating the given string  -->
+				<!-- for(j=0;j<vow.length;j++)  // Iterating the vow string -->
+				<!-- { -->
+					<!-- if(str1[i]==vow[j]){ -->
+					<!-- check++;			// If any vowels present then check gets incremented -->
+				<!-- } -->
+			<!-- } -->
+		<!-- } -->
+		<!-- if(check) -->
+			<!-- console.log("The Given string has Vowel"); -->
+		<!-- else -->
+			<!-- console.log("The Given string has no Vowel"); -->
+			
+			
+			d=prompt("Enter d value");
+			let arr=[];
+				let c;
+			for(i=0; i<d; i++){
+			c=[];
+			b=prompt("Enter b value");
+			function array(ar){
+			for(j=0; j<ar; j++){
+				ar[j]=prompt("Enter the value");
 				}
+			arr[i]=c;
 			}
-		}
-		if(check)
-			console.log("The Given string has Vowel");
-		else
-			console.log("The Given string has no Vowel");
+			return(ar[j]);
+			}
+			array(6);
+			console.log(ar);
+			
+			<!-- var a=prompt("enter outer array"); -->
+			<!-- var b=[]; -->
+			<!-- var f; -->
+			<!-- for(i=0;i<a;i++){ -->
+			<!-- var c=prompt("enter inner array"); -->
+			<!-- if(c==0){ -->
+			 <!-- f=parseInt(prompt("enter")); -->
+			 <!-- } -->
+			 <!-- else{ -->
+			 <!-- f=[]; -->
+			 <!-- for(j=0;j<c;j++){ -->
+			 <!-- var d=prompt("enter a value"); -->
+			 <!-- f[j]=d; -->
+			 <!-- } -->
+			 <!-- b[i]=f; -->
+			 <!-- } -->
+			 <!-- console.log(b); -->
+		
 </script>
 </body>
 </html>
