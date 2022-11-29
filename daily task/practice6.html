@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<title>practice</title>
+	</head>
+<body>
+<script>
+	function name(array){
+	sub=[]
+	for(j=0;j<array;j++){
+		sub[j]=parseInt(prompt("enter inner value"))
+		}
+		return sub;
+		}
+		
+		
+	let mainLen=parseInt(prompt("enter length"));
+	let main=[]
+	let sub
+	for(i=0;i<mainLen;i++){
+	let subinner=parseInt(prompt("enter subinner"))
+	let ss=name(subinner)
+	main[i]=ss;
+	}
+	console.log(main);
+</script>
+</body>
+</html>
