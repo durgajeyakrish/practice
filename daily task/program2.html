@@ -8,47 +8,6 @@
 <body>
 <script>
 		
-			<!-- var a=prompt("enter main length"); -->
-			<!-- let m=my(a); -->
-			<!-- console.log(m); -->
-			<!-- let x=prompt("enter main index"); -->
-			<!-- let y=prompt("enter sub index"); -->
-			<!-- if(x<m.length) -->
-			<!-- { -->
-				<!-- console.log(m[x][y]); -->
-			<!-- } -->
-			<!-- else -->
-			<!-- { -->
-				<!-- console.log("not found"); -->
-			<!-- } -->
-			<!-- function my(z) -->
-			<!-- { -->
-				<!-- var b=[]; -->
-				<!-- for(i=0;i<z;i++) -->
-				<!-- { -->
-					<!-- var d=prompt("enter inner length"); -->
-					<!-- if(d==0) -->
-					<!-- { -->
-						<!-- D=prompt("enter number"); -->
-					<!-- } -->
-					<!-- else{ -->
-						<!-- c=[]; -->
-						<!-- for(j=0;j<d;j++) -->
-						<!-- { -->
-							<!-- var e=prompt("enter values"); -->
-							<!-- c[j]=e; -->
-							<!-- b[i]=c; -->
-						<!-- } -->
-					<!-- } -->
-				<!-- } -->
-				<!-- return b; -->
-			<!-- } -->
-			
-		function upDate(get){
-				var newvalue=prompt("enter newvalue");
-				get=newvalue;
-				console.log(get);
-			}
 	 
 			var a=prompt("enter main length");
 				let m=main(a);
@@ -57,13 +16,10 @@
 				var y=prompt("enter sub index");
 				if(x<m.length)
 				{
-					var out=m[x][y];
-					upDate(out)
+				var newvalue=prompt("enter newvalue");
+				m[x][y]=newvalue;
+				console.log(m);
 				}
-			else
-				{
-				console.log("not found");
-			}
 			
 			
 			
@@ -89,6 +45,69 @@
 				}
 				return b;
 			}
+			
+			
+			<!-- function arrayname(g){ -->
+				<!-- var b=[]; -->
+				<!-- var c; -->
+				<!-- for(i=0; i<g; i++){ -->
+				<!-- d=parseInt(prompt("create inner array length")); -->
+					<!-- if(d==0){ -->
+						<!-- d=parseInt(prompt("create single array")); -->
+						<!-- b[i]=d; -->
+					<!-- } -->
+				<!-- else{ -->
+					<!-- c=[]; -->
+					<!-- for(j=0; j<d; j++){ -->
+					 <!-- e=parseInt(prompt("inner array value")); -->
+					 <!-- c[j]=e; -->
+				<!-- } -->
+			  <!-- b[i]=c; -->
+		   <!-- } -->
+		<!-- } -->
+		<!-- return b; -->
+	 <!-- }; -->
+	 
+	 
+	 <!-- function arrayread(mainarray,mainindex){ -->
+	    <!-- if(mainindex<mainarray.length){ -->
+		   <!-- if(typeof mainarray[mainindex]=="number"){ -->
+		     <!-- var t=mainarray[mainindex]; -->
+			  <!-- return t; -->
+		   <!-- } -->
+		   <!-- else{ -->
+		       <!-- var subindex=parseInt(prompt("enter the sub check index")); -->
+			   <!-- if(subindex<mainarray[mainindex].length){ -->
+				<!-- var t =mainarray[mainindex][subindex]; -->
+				 <!-- return t;} -->
+				 <!-- else{ -->
+				 <!-- console.log("out of range") -->
+				 <!-- } -->
+		<!-- } -->
+	 <!-- } -->
+	 <!-- else{ -->
+				 <!-- console.log("out of range") -->
+				 <!-- } -->
+	 <!-- }; -->
+	   <!-- function arrayupdate(mainarray){ -->
+	     <!-- let index=prompt("enter the main index"); -->
+		 <!-- let newvalue=prompt("enter the main index newvalue"); -->
+		 <!-- mainarray[index]=newvalue; -->
+		 <!-- console.log(mainarray); -->
+		 <!-- return mainarray; -->
+	  <!-- } -->
+	 
+	 <!-- var a=parseInt(prompt("enter main array length")); -->
+	 <!-- var f=arrayname(a); -->
+	 <!-- console.log(f); -->
+	 
+	 <!-- var x=parseInt(prompt("enter the main check index")); -->
+	 <!-- var second=arrayread(f,x); -->
+	 <!-- console.log(second); -->
+	 
+	
+	  <!-- up=arrayupdate(f); -->
+	  <!-- console.log(up); -->
 </script>
 </body>
 </html>
