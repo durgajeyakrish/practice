@@ -8,15 +8,52 @@
 <body>
 <script>
 
+	<!-- let name=document.createElement(prompt("enter a tag name")); -->
+	<!-- document.body.appendChild(name); -->
+	<!-- name.innerHTML=(prompt("enter content")); -->
+	<!-- let a=prompt("enter attribute"); -->
+	<!-- let b=prompt("enter property"); -->
+	<!-- let c=prompt("enter color"); -->
+	<!-- name.setAttribute(a,b+":"+c); -->
+	
+	<!-- let name=document.createElement(prompt("enter a tag name")); -->
+	<!-- document.body.appendChild(name); -->
+	<!-- let a=prompt("enter attribute"); -->
+	<!-- let b=prompt("enter property"); -->
+	<!-- let c=prompt("enter color"); -->
+	<!-- name.setAttribute(a,b+":"+c); -->
+	<!-- let name1=document.createElement(prompt("enter a inner tag name")); -->
+	<!-- name1.innerHTML=prompt("content1"); -->
+	<!-- name.appendChild(name1); -->
+	<!-- let name2=document.createElement(prompt("enter a inner tag name")); -->
+	<!-- name2.innerHTML=prompt("content2"); -->
+	<!-- name.appendChild(name2); -->
+	
 	let name=document.createElement(prompt("enter a tag name"));
 	document.body.appendChild(name);
-	name.innerHTML=(prompt("enter content"));
 	let a=prompt("enter attribute");
 	let b=prompt("enter property");
 	let c=prompt("enter color");
 	name.setAttribute(a,b+":"+c);
+	let name1=document.createElement(prompt("enter a inner tag name"));
+	name1.innerHTML=prompt("content1");
+	name.appendChild(name1);
+	let name2=document.createElement(prompt("enter a inner tag name"));
+	name2.innerHTML=prompt("content2");
+	name.appendChild(name2);
 	
-	
+	let name3=document.createElement(prompt("enter a tag name"));
+	document.body.appendChild(name);
+	let a1=prompt("enter attribute");
+	let b2=prompt("enter property");
+	let c3=prompt("enter color");
+	name3.setAttribute(a1,b2+":"+c3);
+	let name4=document.createElement(prompt("enter a inner tag name"));
+	name4.innerHTML=prompt("content1");
+	name3.appendChild(name1);
+	let name5=document.createElement(prompt("enter a inner tag name"));
+	name5.innerHTML=prompt("content2");
+	name3.appendChild(name2);
 </script>
 </body>
 </html>
