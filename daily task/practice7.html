@@ -9,29 +9,28 @@
 <body>
 <script>
 
-		let outLen,inLen,arr=[],opt,nVal,subArr=(len)=>{
-			let sub=[],subVal;
-			for(j=0;j<len;j++){
-				subVal=prompt("Enter the values of Array");
-				sub.push(subVal);
+		for(i=5;i>0;i--){
+			for(j=0;j<i;j++)
+			{
+			document.write("*");
 			}
-		return sub;
-		};
-			outLen=prompt("Enter the main Array length ");
-			for(i=0;i<outLen;i++){
-			opt=prompt("If array enter A ,if Num enter N");
-		if(opt=='N'){
-			nVal=prompt("Enter the Number ");
-			arr.push(nVal);    
-		}
-		else{
-			inLen=prompt("Enter the sub Array length ");
-			let resSub=[];
-			resSub=subArr(inLen);
-			arr.push(resSub);
+			document.write("<br>");
+		}	
+		
+		for(i=0;i<=5;i++){
+			for(j=0;j<i;j++)
+			{
+			document.write("*");
 			}
+			document.write("<br>");
+		}	
+		
+		let array=[[1,2,3],[4,5,6],[3,2,1]];
+		for(i=0;i<array.length;i++)
+		{
+			
+			console.log(array[i]);
 		}
-		console.log(arr);
 </script>
 </body>
 </html>
