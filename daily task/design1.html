@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<title>practice</title>
+	</head>
+<style>
+	*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.container{
+	width:85%;
+	margin:auto;
+	
+}
+.head h3{
+	text-align:center;
+	justify-content:center;
+	margin-top:2rem;
+	
+	color:#659BD8;
+}
+.head h3::after{
+	margin:auto;
+	height:2px;
+	width:1rem;
+	color:#ccc;
+	content:"";
+	position:absolute;
+}
+.head h1{
+	text-align:center;
+	justify-content:center;
+	margin-top:1rem;
+	color:#659BD8;
+}
+.para{
+	display:flex;
+	gap:2.5rem;
+	margin-top:2rem;
+}
+.para p{
+	 color:#23CCEB; 
+	 text-align:center;
+	 margin-top:1rem;
+	 padding:0.3rem;
+}
+.now{
+	border:2px solid #ccc;
+	border-radius:2px 2px #ccc;
+}
+img{
+	position:relative;
+	animation-name:square;
+	animation:square 2s infinite;
+}
+@keyframes square{
+		from{
+			top:0;
+		}
+		to{
+			top:15px;
+		}
+}
+
+</style>
+<body>
+	<section class="page1">
+		<div class="container">
+			<div class="head">
+				<h3>our values</h3>
+				<h1>odit est perspiciatis laborum et dicta</h1>
+			</div>
+			<div class="para">
+				<div class="now">
+					<img src="img/values-1.png" width=100%;>
+					<p>Magnam dolores commodi suscipit.Necessittabius eius consectuquatur ex aliquid fuga quidem.Sit sint consectetur velit.</p>
+				</div>
+				<div class="now">
+					<img src="img/values-2.png" width=100%;>
+					<p>Magnam dolores commodi suscipit.Necessittabius eius consectuquatur ex aliquid fuga quidem.Sit sint consectetur velit.</p>
+				</div>
+				<div class="now">
+					<img src="img/values-3.png" width=100%;>
+					<p>Magnam dolores commodi suscipit.Necessittabius eius consectuquatur ex aliquid fuga quidem.Sit sint consectetur velit.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+</body>
+</html>
