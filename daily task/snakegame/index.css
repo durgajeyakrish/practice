@@ -1,0 +1,68 @@
+*{
+	margin:0;
+	padding:0;
+	left:0;
+	right:0;
+	box-sizing:border-box;
+}
+body{
+	background-color:lightgrey;
+}
+.playBox{
+	border:.1px solid black; 
+}
+.red{
+	float:left;
+	height:6rem;
+	width:6rem;
+	border:.1px solid black;
+	font-size:2.5rem;
+	background-color:white;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.blue{
+	float:left;
+	height:6rem;
+	width:6rem;
+	border:.1px solid black;
+	font-size:2.5rem;
+	background-color:aqua;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.green{
+	float:left;
+	height:6rem;
+	width:6rem;
+	border:.1px solid black;
+	font-size:2.5rem;
+	background-color:yellow;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.yellow{
+	float:left;
+	height:6rem;
+	width:6rem;
+	border:.1px solid black;
+	font-size:2.5rem;
+	background-color:pink;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
+.white{
+	float:left;
+	border:.1px solid black;
+	height:6rem;
+	width:6rem;
+	font-size:2.5rem;
+	background-color:red;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
