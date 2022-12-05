@@ -33,9 +33,10 @@
 }
 .head2{
 	padding-top:5rem;
+
 }
 .para2{
-	color#797D7F ;
+	color:#797D7F ;
 }
 .icon1{
 	font-size:3rem;
@@ -53,6 +54,9 @@
 .per1{
 	color:#D98880;	
 }
+span{
+	color:#797D7F;
+}
 .per2{
 	color:#D98880;
 	padding:0.5rem;
@@ -61,28 +65,6 @@
 	text-align:center;
 	align-items:center;
 }
-/* .page3{
-	background-color:#F9EBEA;
-	padding-bottom:6rem;
-	text-align:center;
-}
-.lorem{
-	padding:2rem;
-}
-.education{
-	padding-top:2rem;
-}
-.personalinfo h1{
-	margin-top:2rem;
-	padding:1rem;
-}
-.personalinfo{
-	border-left:1px solid  #797D7F;
-	height:60vh;
-}
-.personalinfo p{
-	font-size:1.3rem;
-} */
 .bor{
 	border:1rem solid #BDA787;
 	width:18rem;
@@ -94,20 +76,6 @@
 .skil h1{
 	color:#D98880;
 	margin-top:2.5rem;
-}
-.skil{
-	position:relative;
-}
-.skil h1::after{
-	position:absolute;
-	content:"";
-	height:3px;
-	width:5%;
-	margin:auto;
-	line-height:1;
-	margin-left:-5rem;
-	margin-top:2.9rem;
-	background-color:#ccc;
 }
 .port img{
 	border-radius:20px;
