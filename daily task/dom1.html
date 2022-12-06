@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+</head>	
+<body>
+	<!-- <input type="text" id="mytext" value="" placeholder="enter a value"> -->
+	<!-- <input type="text" id="hello" value="" placeholder="enter a value"> -->
+	<!-- <button type="button" id="btn">submit</button> -->
+	<!-- <p id="para"></p> -->
+	<input type="text" id="mytext" value="" placeholder="enter a words">
+	<button type="button" id="btn">click</button>
+	<p class="para"></p>
+<script>
+	let btn=document.getElementById("btn");
+	btn.addEventListener("click",myfunction);
+	function myfunction(){
+		let input=document.getElementById("mytext").value;
+		document.getElementById("para").innerHTML=input;
+	}
+</script>
+</body>	
+</html>
+
