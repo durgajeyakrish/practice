@@ -133,6 +133,34 @@
 		<div id=board>
 		</div>
    </div>
+   <div class="snake">
+		<img src="img/snake1.png" width=10%>
+   </div>
+   <div class="snake1">
+		<img src="img/snake1.png" width=19%>
+   </div>
+	<div class="snake2">
+		<img src="img/snake1.png" width=19%>
+   </div>
+   <div class="snake3">
+		<img src="img/snake1.png" width=15%>
+   </div>
+   <div class="ladder">
+	<img src="img/ladder.png" width=40%>
+   </div>
+   <button onclick=rollDice()>Roll Dice</button>
+		<div id=board>
+		</div>
+	<canvas id=canvas width="1000" height="1000"></canvas>
+   <script>
+
+let currentPlayer = players[currentPlayerTurn];
+
+roll = Math.floor(Math.random() * 5 + 1);
+console.log(currentPlayer.name +", You rolled", roll); 
+ 
+
+   </script>
 </body>
 </html>
 </body>		
