@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>bmi</title>
+</head>	
+<body>
+	<!-- <button type="button" id="btn">click here</button> -->
+	<!-- <p id="para"></p> -->
+	
+	
+	<fieldset>
+		<label>amount<input type="number" id="head" value=""></label><br><br>
+		<label>tips<input type="number" id="head1" value=""></label></br><br>
+		<label>tipsamount<input type="text" id="head2" value="" disabled></label><br><br>
+		<label>total<input type="text" id="head3" value="" disabled	></label><br><br>
+		<button type="button" id="btn">calculate</button><br><br>
+	</fieldset>
+<script>
+	<!-- var name=document.getElementById("btn"); -->
+	<!-- btn.addEventListener("click",myfunction); -->
+	<!-- function myfunction(){ -->
+       <!-- alert("hello"); -->
+	<!-- } -->
+	
+	<!-- calculate -->
+		
+		let btn=document.getElementById("btn");
+		btn.addEventListener("click",myFunction);
+		function myFunction(){
+			var cal=document.getElementById("head").value;
+			var cal1=document.getElementById("head1").value;
+			var cal2 = cal1/100* cal;
+			document.getElementById("head2").value=cal2;
+			var total=(parseInt(cal)+parseInt(cal2));
+			document.getElementById("head3").value=total;
+		}
+		
+</script>
+</body>
+</html>
