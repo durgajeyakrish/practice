@@ -7,15 +7,19 @@
 	<title>bmi</title>
 </head>	
 <body>
+	<!-- <input type="text" id="one" value=""> -->
+	<!-- <input type="text" id="two" value=""> -->
+	<!-- <button type="button" id="btn">click</button> -->
+	
 	<!-- <button type="button" id="btn">click here</button> -->
 	<!-- <p id="para"></p> -->
 	
 	
 	<fieldset>
-		<label>amount<input type="number" id="head" value=""></label><br><br>
-		<label>tips<input type="number" id="head1" value=""></label></br><br>
-		<label>tipsamount<input type="text" id="head2" value="" disabled></label><br><br>
-		<label>total<input type="text" id="head3" value="" disabled	></label><br><br>
+		<label>amount<input type="text" id="head" value=""></label><br><br>
+		<label>tips<input type="text" id="head1" value=""></label></br><br>
+		<label>tipsamount<input type="number" id="head2" value="" disabled></label><br><br>
+		<label>total<input type="number" id="head3" value="" disabled	></label><br><br>
 		<button type="button" id="btn">calculate</button><br><br>
 	</fieldset>
 <script>
@@ -32,11 +36,30 @@
 		function myFunction(){
 			var cal=document.getElementById("head").value;
 			var cal1=document.getElementById("head1").value;
-			var cal2 = cal1/100* cal;
+			var cal2 = (cal1/100)* cal;
 			document.getElementById("head2").value=cal2;
 			var total=(parseInt(cal)+parseInt(cal2));
 			document.getElementById("head3").value=total;
+			
+			if(cal==="" || isNaN(cal)){
+				alert("amount");
+				return false;
+			}
+			else if(cal1==="" || isNaN(cal1)){
+				alert("value");
+				return false;
+			}
 		}
+		
+		
+		<!-- let fun=document.getElementById("btn"); -->
+		<!-- btn.addEventListener("click",myfunction); -->
+		<!-- function myfunction(){ -->
+			<!-- var name=document.getElementById("one").value; -->
+			<!-- document.getElementById("two").value=name; -->
+		<!-- } -->
+		
+		
 		
 </script>
 </body>
