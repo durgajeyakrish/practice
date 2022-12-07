@@ -10,23 +10,25 @@
 	<input type="text" id="height" value="" placeholder="enter height">
 	<input type="text" id="weight" value="" placeholder="enter weight">
 	<input type="text" id="age" value="" placeholder="enter age">
-	
+	<button type="button" id="btn">click</button>
+	<input type="text" id="res" value="" placeholder="result">
+	<h1 id="cal"></h1>
 <script>
-	var btns=document.getElementById("btns")
-		btns.addEventListener("click",myfunction)
+	var btn=document.getElementById("btn")
+		btn.addEventListener("click",myfunction)
 		function myfunction(){
 			let inp=document.getElementById("an").value
 		document.getElementById("pa").value=inp
 		}
 		
 		var button=document.getElementById("bdn")
-		bdn.addEventListener("click",myfunctions)
+		btn.addEventListener("click",myfunctions)
 		function myfunctions(){
 			var h=document.getElementById("height").value
 			var w=document.getElementById("weight").value
 			var bmi=w/(h/100*h/100)
 			console.log(bmi);
-			document.getElementById("ans").value=bmi
+			document.getElementById("res").value=bmi
 			var result;
 			if (bmi<18.5){
 				result=("under weight");
