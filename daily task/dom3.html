@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+  <style>
+		.main{
+			display:flex;
+			justify-content:space-between;
+			
+		}
+		.area{
+			width:49%;
+		}
+		.area iconify-icon{
+			font-size:2rem;
+		}
+  </style>
+  </head>
+  <body>
+		<div class="main">
+		<div class="text">
+			
+				<textarea id="text1" rows="15" cols="45" ></textarea>
+				<button type="button" id="btn" >submit</button>
+		</div>
+		<div class="content" id="htag">
+		</div>
+		</div>
+		<script>
+			let btns=document.getElementById("btn");
+			btns.addEventListener("click", myfunction);
+			function myfunction(){
+			let area =document.getElementById("text1").value
+			let add=document.getElementById("htag")
+			let para1=document.createElement("p")
+			add.appendChild(para1);
+			para1.innerHTML=text1.value;
+			}
+		</script>
+  </body>
+  </html>
