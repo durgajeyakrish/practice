@@ -3,6 +3,7 @@
 	padding:0;
 	box-sizing:border-box;
 }
+@media (min-width:390px){
 .container{
 	width:85%;
 	margin:auto;
@@ -13,7 +14,6 @@
 .lorem{
 	margin-top:2rem;
 	box-shadow: 0 0 10px #ccc;
-	height:100vh;
 }
 .lorem h2{
 	font-size:2rem;
@@ -24,9 +24,7 @@
 	font-size:1.2rem;
 	margin-top:1rem;
 	color:#2E86C1;
-	text-align:center;
-	
-	
+	text-align:center;	
 }
 .mamba h2::after{
 	 content: "";
@@ -49,13 +47,13 @@
 	color:#2E86C1;
 }
 .lo2{
-	display:flex;
+	display:block;
 	width:100%;
 	gap:1.4rem;
 	margin-top:3rem;
 }
 .lo3{
-	display:flex;
+	display:block;
 	width:100%;
 	gap:1.4rem;
 	margin-top:3rem;
@@ -64,4 +62,5 @@
 	color:#2E86C1;
 	text-align:center;
 	font-size:2rem;
+}
 }
