@@ -101,7 +101,17 @@ span{
 }
 .portfolio{
 	text-align:center;
+	gap:1.7rem;
+}
+.port p{
+	margin-top:1.5rem;
 }
 .pro{
 	width:70%;
+}
+.icn1{
+	color:#D98880;
+	font-size:1.9rem;
+	margin-left:1rem;
+	margin-top:1rem;
 }
