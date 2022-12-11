@@ -30,16 +30,7 @@
 		}
 		document.write("<br>");
 		
-		<!-- multiple by 7 -->
-	let w=14;
-		if(w%7==0){
-		document.write("multiple by 7");
-		}
-	else{
-		document.write(" not multiple by 7");
-	}
-		document.write("<br>");
-	
+		
 	
 	let mm=28;
 		if(mm>=18){
@@ -110,54 +101,21 @@
 	document.write("<br>");
 	}
 	
-	<!-- fibbonacci series -->
-	<!-- let n1=0,n2=1,n3; -->
-	<!-- let k=prompt("enter a number"); -->
-	<!-- for(i=1;i<=k;i++) -->
-	<!-- { -->
-	<!-- document.write(n1); -->
-	<!-- n3=n1+n2; -->
-	<!-- n1=n2; -->
-	<!-- n2=n3; -->
-	<!-- } -->
-	
-	<!-- swap -->
-	function swap(snum1,snum2){
-	let t=snum1;snum1=snum2;snum2=t;
-	document.write(swap(snum1,snum2));
+	 <!-- fibbonacci series -->
+	 
+	let n1=0,n2=1,n3;
+	let k=prompt("enter a number");
+	for(i=1;i<=k;i++)
+	{
+	document.write(n1);
+	n3=n1+n2;
+	n1=n2;
+	n2=n3;
 	}
-	swap(13,6)
-	document.write("<br>");
+
 	
 	
-		for(i=65;i<=73;i++){
-			for(k=73;k>=i;k--)
-			{
-			document.write("&nbsp");
-			}
-			for(j=65;j<=i;j++){
-			if(i%2==0)
-			{
-			continue;
-			}
-			document.write(String.fromCharCode(j));
-			}
-			document.write("<br>");
-			}
 	
-	
-	                                                                                     
-	
-	<!-- function fact(f) -->
-	<!-- { -->
-	<!-- if(f==0) -->
-	<!-- { -->
-	<!-- return 1; -->
-	<!-- } -->
-	<!-- else{ -->
-	<!-- return f*fact(f-1); -->
-	<!-- } -->
-	<!-- document.write(fact(6)); -->
 	
 </script>
 </body>
