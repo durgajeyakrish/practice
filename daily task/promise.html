@@ -10,19 +10,19 @@
 <script>
 	 <!-- promise -->
 	 
-	 let a=25,b=15
-	 let promise=new promise(
-		function(resolve,reject){
-		setTimeOut(() =>{
-		if(a>b){
-			resolve("resolved")
-		}
-		else{
-			reject("rejected") 
-		}
-	2000);
-}
-console.log(promise);
+	 <!-- let a=25,b=15 -->
+	 <!-- let promise=new promise( -->
+		<!-- function(resolve,reject){ -->
+		<!-- setTimeOut(() =>{ -->
+		<!-- if(a>b){ -->
+			<!-- resolve("resolved") -->
+		<!-- } -->
+		<!-- else{ -->
+			<!-- reject("rejected")  -->
+		<!-- } -->
+	<!-- 2000); -->
+<!-- } -->
+<!-- console.log(promise); -->
 
 			<!-- callback function -->
 			<!-- function mainfunc(callfunc){ -->
@@ -50,6 +50,54 @@ console.log(promise);
 				<!-- }; -->
 				<!-- chain(); -->
 				
+						<!-- promise chinning -->
+						
+				let prom1= new Promise(function(resolve,reject){
+				setTimeout(function(){
+			    reject()
+				},2000);
+				})
+				let prom2= new Promise(function(resolve,reject){
+							resolve()
+						});
+				
+				let prom3= new Promise(function(resolve,reject){
+						setTimeout(function(){
+							resolve()
+						},3000);
+					})
+				let prom4= new Promise(function(resolve,reject){
+							resolve()
+						});
+					
+				prom1
+				   .then(function(){
+					console.log("success")
+					prom2
+					  .then(function(){
+					  console.log("sucess");
+					prom3
+					  .then(function(){
+						 console.log("sucess");
+					prom4
+						  .then(function(){
+						 console.log("sucess");
+						 })
+					.catch(function(){
+						  console.log("error")
+						  })
+					  })
+				  .catch(function(){
+					console.log("error")
+					  })		  
+				})
+				 .catch(function(){
+					console.log("error")
+				}) 
+			})
+				.catch(function(){
+					console.log("error")
+				})
 </script>
 </body>
 </html>
