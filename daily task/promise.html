@@ -52,52 +52,90 @@
 				
 						<!-- promise chinning -->
 						
-				let prom1= new Promise(function(resolve,reject){
-				setTimeout(function(){
-			    reject()
-				},2000);
-				})
-				let prom2= new Promise(function(resolve,reject){
-							resolve()
-						});
+				<!-- let prom1= new Promise(function(resolve,reject){ -->
+				<!-- setTimeout(function(){ -->
+			    <!-- reject() -->
+				<!-- },2000); -->
+				<!-- }) -->
+				<!-- let prom2= new Promise(function(resolve,reject){ -->
+							<!-- resolve() -->
+						<!-- }); -->
 				
-				let prom3= new Promise(function(resolve,reject){
-						setTimeout(function(){
-							resolve()
-						},3000);
-					})
-				let prom4= new Promise(function(resolve,reject){
-							resolve()
-						});
+				<!-- let prom3= new Promise(function(resolve,reject){ -->
+						<!-- setTimeout(function(){ -->
+							<!-- resolve() -->
+						<!-- },3000); -->
+					<!-- }) -->
+				<!-- let prom4= new Promise(function(resolve,reject){ -->
+							<!-- resolve() -->
+						<!-- }); -->
 					
-				prom1
-				   .then(function(){
-					console.log("success")
-					prom2
-					  .then(function(){
-					  console.log("sucess");
-					prom3
-					  .then(function(){
-						 console.log("sucess");
-					prom4
-						  .then(function(){
-						 console.log("sucess");
-						 })
-					.catch(function(){
-						  console.log("error")
-						  })
-					  })
-				  .catch(function(){
-					console.log("error")
-					  })		  
-				})
-				 .catch(function(){
-					console.log("error")
-				}) 
-			})
-				.catch(function(){
-					console.log("error")
-				})
+				<!-- prom1 -->
+				   <!-- .then(function(){ -->
+					<!-- console.log("success") -->
+					<!-- prom2 -->
+					  <!-- .then(function(){ -->
+					  <!-- console.log("sucess"); -->
+					<!-- prom3 -->
+					  <!-- .then(function(){ -->
+						 <!-- console.log("sucess"); -->
+					<!-- prom4 -->
+						  <!-- .then(function(){ -->
+						 <!-- console.log("sucess"); -->
+						 <!-- }) -->
+					<!-- .catch(function(){ -->
+						  <!-- console.log("error") -->
+						  <!-- }) -->
+					  <!-- }) -->
+				  <!-- .catch(function(){ -->
+					<!-- console.log("error") -->
+					  <!-- })		   -->
+				<!-- }) -->
+				 <!-- .catch(function(){ -->
+					<!-- console.log("error") -->
+				<!-- })  -->
+			<!-- }) -->
+				<!-- .catch(function(){ -->
+					<!-- console.log("error") -->
+				<!-- }) -->
+				
+				
+				<!-- promise all -->
+					<!-- let pro1= new Promise(function(resolve,reject){ -->
+					   <!-- resolve("res1"); -->
+					   <!-- }); -->
+					   
+					 <!-- let pro2= new Promise(function(resolve,reject){ -->
+					   <!-- resolve("res2"); -->
+					   <!-- }); -->
+					   
+				  <!-- Promise.all([pro1,pro2]) -->
+						<!-- .then(function (success){ -->
+							<!-- console.log("success",success); -->
+							<!-- }) -->
+						<!-- .catch(function (err){ -->
+							<!-- console.log("err",err); -->
+							<!-- }); -->
+				 
+					<!-- async await -->
+					<!-- let pro3= new Promise(function(resolve,reject){ -->
+					   <!-- resolve("res1"); -->
+					   <!-- }); -->
+					   
+					 <!-- let pro4= new Promise(function(resolve,reject){ -->
+					   <!-- resolve("res2"); -->
+					   <!-- }); -->
+					<!-- async function Parent(){ -->
+						<!-- try{ -->
+						<!-- var res1=await pro3; -->
+						<!-- var res2=await pro4; -->
+						
+						<!-- console.log("res",res1,res2); -->
+						<!-- } catch(err){ -->
+							 <!-- console.log("error"); -->
+							 <!-- } -->
+							 <!-- } -->
+						<!-- Parent() -->
 </script>
 </body>
 </html>
