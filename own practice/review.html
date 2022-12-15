@@ -21,39 +21,59 @@
 						
 					<!-- switch -->
 					
-					let marks=60;
-						switch(true){
-							case marks>50:
-							document.write("pass");
-							break;
-							case marks>90:
-							document.write("excellent");
-							break;
-							case marks<40:
-							document.write("fail");
-							break;
-							defalut:
-							document.write("invalid");
+					<!-- let marks=60; -->
+						<!-- switch(true){ -->
+							<!-- case marks>50: -->
+							<!-- document.write("pass"); -->
+							<!-- break; -->
+							<!-- case marks>90: -->
+							<!-- document.write("excellent"); -->
+							<!-- break; -->
+							<!-- case marks<40: -->
+							<!-- document.write("fail"); -->
+							<!-- break; -->
+							<!-- defalut: -->
+							<!-- document.write("invalid"); -->
+							<!-- } -->
+							
+							
+					<!-- let age=prompt("enter age"); -->
+						<!-- if(age>20){ -->
+							<!-- document.write("eligible for women"); -->
+						<!-- } -->
+						<!-- document.write("<br>"); -->
+						<!-- else{ -->
+							<!-- document.write(" not eligible for women"); -->
+						<!-- } -->
+						<!-- document.write("<br>"); -->
+						<!-- if(age>25){ -->
+							<!-- document.write("eligible for men"); -->
+						<!-- } -->
+						<!-- document.write("<br>"); -->
+						<!-- else{ -->
+							<!-- document.write(" not eligible for men"); -->
+						<!-- } -->
+						<!-- document.write("<br>");	 -->
+						
+						
+						let age=prompt("Enter age");
+						let	sex=prompt("Enter sex");
+						let martialstatus=prompt("Are you married");
+						if(sex == 'Female') {
+								console.log("You will work only in urban areas");
 							}
-							
-							
-					let age=prompt("enter age");
-						if(age>20){
-							document.write("eligible for women");
-						}
-						document.write("<br>");
-						else{
-							document.write(" not eligible for women");
-						}
-						document.write("<br>");
-						if(age>25){
-							document.write("eligible for men");
-						}
-						document.write("<br>");
-						else{
-							document.write(" not eligible for men");
-						}
-						document.write("<br>");	
+						if(sex == 'Male') {
+								if((age >= 20) && (age < 40)) {
+									console.log("You may work anywhere");
+								}
+								else if((age >= 40) && (age < 60)) {
+									console.log("You will work only in urban areas");
+								}
+								else {
+									console.log("ERROR");
+								}
+							}
+					
 						
 					
 
