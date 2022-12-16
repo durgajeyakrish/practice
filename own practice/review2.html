@@ -7,7 +7,8 @@
     <title>practice</title>
 </head>
 <body>
-<script>
+<script> 
+							<!-- mark -->
 					<!-- let mark=prompt("enter a mark"); -->
 							<!-- if(mark>80){ -->
 								<!-- console.log("A GRADE"); -->
@@ -32,15 +33,38 @@
 							let a=prompt("enter a age");
 							let b=prompt("enter b age");
 							let c=prompt("enter c age");
-							if(a>b && a<c){
-								console.log("a is older");
-							}
-							else if(b>c && b>a){
-								console.log("b is older");
-							}
-							else{
+							 if(a>b){
+									if(a>c){
+									console.log("a is older");
+								}
+							else {
 								console.log("c is older");
 							}
-</script>
+							}
+							else{
+								if(b>c){
+									console.log("b is older");
+								}
+								else{
+									console.log("b is older");
+								}
+							}
+							
+							let name=prompt("enter a value");
+							if((name >= 'a' && name <= 'z') || (name >= 'A' && name <= 'Z'))
+								{
+									console.log("alphabet");
+								}
+								else if(name >= '0' && name<= '9')
+								{
+									console.log("digit");
+
+								}
+								else 
+								{
+									console.log("special characters");
+								}
+
+</script>							
 </body>
 </html>
