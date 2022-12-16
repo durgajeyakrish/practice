@@ -56,24 +56,43 @@
 						<!-- document.write("<br>");	 -->
 						
 						
-						let age=prompt("Enter age");
-						let	sex=prompt("Enter sex");
-						let martialstatus=prompt("Are you married");
-						if(sex == 'Female') {
-								console.log("You will work only in urban areas");
+						<!-- let age=prompt("Enter age"); -->
+						<!-- let	sex=prompt("Enter sex"); -->
+						<!-- let martialstatus=prompt("Are you married"); -->
+						<!-- if(sex == 'Female') { -->
+								<!-- console.log("You will work only in urban areas"); -->
+							<!-- } -->
+						<!-- if(sex == 'Male') { -->
+								<!-- if((age >= 20) && (age < 40)) { -->
+									<!-- console.log("You may work anywhere"); -->
+								<!-- } -->
+								<!-- else if((age >= 40) && (age < 60)) { -->
+									<!-- console.log("You will work only in urban areas"); -->
+								<!-- } -->
+								<!-- else { -->
+									<!-- console.log("ERROR"); -->
+								<!-- } -->
+							<!-- } -->
+							
+							<!-- mark -->
+							
+							let mark=prompt("enter a mark");
+							if(mark>90){
+								console.log("A GRADE");
 							}
-						if(sex == 'Male') {
-								if((age >= 20) && (age < 40)) {
-									console.log("You may work anywhere");
-								}
-								else if((age >= 40) && (age < 60)) {
-									console.log("You will work only in urban areas");
-								}
-								else {
-									console.log("ERROR");
-								}
+							else if(mark>60 && mark<=90){
+								console.log("B GRADE");
 							}
-					
+							else if(mark>50 && mark<=60){
+								console.log("C GRADE");
+							}
+							else if(mark>45 && mark<=30){
+								console.log("A GRADE");
+							}
+							else(mark>30){
+								console.log("FAIL");
+							}
+							
 						
 					
 
