@@ -76,21 +76,49 @@
 							
 							<!-- mark -->
 							
-							let mark=prompt("enter a mark");
-							if(mark>90){
-								console.log("A GRADE");
+							<!-- let mark=prompt("enter a mark"); -->
+							<!-- if(mark>90){ -->
+								<!-- console.log("A GRADE"); -->
+							<!-- } -->
+							<!-- else if(mark>60 && mark<=90){ -->
+								<!-- console.log("B GRADE"); -->
+							<!-- } -->
+							<!-- else if(mark>50 && mark<=60){ -->
+								<!-- console.log("C GRADE"); -->
+							<!-- } -->
+							<!-- else if(mark>45 && mark<=30){ -->
+								<!-- console.log("A GRADE"); -->
+							<!-- } -->
+							<!-- else(mark>30){ -->
+								<!-- console.log("FAIL"); -->
+							<!-- } -->
+							
+							let x=prompt("enter x number");
+							let y=prompt("enter y number");
+							let z=prompt("enter z number");
+							if(x>y&&x>z){
+								if(y>z){
+									console.log(z,y,x)
+								}
+								else{
+									console.log(y,z,x)
+								}
 							}
-							else if(mark>60 && mark<=90){
-								console.log("B GRADE");
+							else if(y>x&&y>z){
+								if(x>z){
+									console.log(z,x,y)
+								}
+								else{
+									console.log(x,z,y)
+								}
 							}
-							else if(mark>50 && mark<=60){
-								console.log("C GRADE");
-							}
-							else if(mark>45 && mark<=30){
-								console.log("A GRADE");
-							}
-							else(mark>30){
-								console.log("FAIL");
+							else if(z>x&&z>y){
+								if(x>y){
+									console.log(y,x,z)
+								}
+								else{
+									console.log(x,y,z)
+								}
 							}
 							
 						
