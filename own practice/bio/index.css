@@ -1,0 +1,275 @@
+*{
+	padding:0;
+	margin:0;
+	box-sizing:border-box;
+}
+.head1{
+	padding-top:10rem;
+	font-size:3.3rem;
+	color:#D98880;
+	margin-left:3rem;
+}
+.para1{
+	font-size:1.5rem;
+	color:#797D7F;
+	margin-left:3rem;
+}
+.img1{
+	padding-top:5rem;
+	padding-bottom:5rem;	
+}
+.icn{
+	color:#D98880;
+	justify-content:space-between;
+	text-align:center;
+	margin-left:2.6rem;
+}
+.page1{
+	padding-bottom:2rem;
+	background-color:#F9EBEA;
+}
+.btn{
+	background-color:#F3823A;
+}
+.head2{
+	padding-top:5rem;
+
+}
+.para2{
+	color:#797D7F ;
+}
+.icon1{
+	font-size:3rem;
+	color:#F89050;
+}
+.subhead1{
+	font-size:1.3rem;
+}
+.img2{
+	padding-top:1rem;
+	padding-bottom:2rem;
+	margin-left:4rem;
+	margin-top:1rem;
+}
+.per1{
+	color:#D98880;	
+	font-size:1.2rem;
+}
+span{
+	color:#797D7F;
+}
+.per2{
+	color:#D98880;
+	padding:0.5rem;
+}
+.personalinfo{
+	text-align:center;
+	align-items:center;
+}
+.bor{
+	border:1rem solid #BDA787;
+	width:18rem;
+	height:22rem;
+	margin-left:3rem;
+	margin-top:7rem;
+	position:relative;
+}
+.skil h1{
+	color:#D98880;
+	margin-top:2.5rem;
+}
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  margin: 0 20px;
+  width: 280px;
+  height: 350px;
+  border-radius: 5px;
+  box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.2);
+}
+
+.card .percent {
+  position: relative;
+}
+
+.card svg {
+  position: relative;
+  width: 210px;
+  height: 210px;
+  transform: rotate(-90deg);
+}
+
+.card svg circle {
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke: #f0f0f0;
+  stroke-width: 10;
+  stroke-linecap: round;
+}
+
+.card svg circle:last-of-type {
+  stroke-dasharray: 625px;
+  stroke-dashoffset: calc(625px - (625px * var(--percent)) / 100);
+  stroke:#D98880; 
+}
+
+.card .number {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card .number h3 {
+  font-weight: 200;
+  font-size: 3.5rem;
+}
+
+.card .number h3 span {
+  font-size: 2rem;
+}
+
+.card .title h2 {
+  margin: 25px 0 0;
+}
+
+.card:nth-child(1) svg circle:last-of-type {
+  stroke:#D98880;
+}
+.port img{
+	border-radius:20px;
+	border:1px solid black;
+	margin-top:2.5rem;
+}
+.port a{
+	padding:1rem;
+	color:white;
+}
+.but{
+	text-decoration:none;
+	font-size:1rem;
+	color:white;
+	margin:auto;
+}
+.port button{
+	margin-top:2rem;
+	padding:0.3rem;
+	border-radius:15px;
+	background-color:#D98880;
+	border:none;
+}
+.portfolio{
+	text-align:center;
+	gap:1.7rem;
+}
+.port p{
+	margin-top:1.5rem;
+}
+.port h4{
+	color:#D98880;
+}
+.pro{
+	width:70%;
+}
+.icn1{
+	color:#D98880;
+	font-size:5rem;
+	margin:auto;
+}
+.email iconify-icon{
+	font-size:2rem;
+	height:5rem;
+	width:5rem;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	border:2px solid #ccc;
+	border-radius:50%;
+	text-align:center;
+	margin:auto;
+	color:#D98880;
+}
+.email iconify-icon:hover{
+	background-color:#D98880;
+	color:white;
+}
+.email h1{
+	color:#909497;
+	font-size:1.5rem;
+	padding:1rem;
+}
+.email p{
+	font-size:1.3rem;
+}
+placeholder{
+	font-size:1.8rem;
+}
+@media (min-width:768px){
+	.address{
+		display:flex;
+		justify-content:space-between;
+		padding-top:2rem;
+	}
+	.email{
+		width:32%;
+	}
+}
+.page5{
+	padding-top:2rem;
+	padding-bottom:2rem;
+}
+.resum h1{
+	font-size:1.3rem;
+}
+.container1{
+	width:60%;
+	margin:auto;
+}
+.cont{
+	width:30%;
+	height:40%;
+	border:1px solid black;
+	text-align:center;
+}
+.cont iconify-icon{
+	font-size:2rem;
+	border:5px solid black;
+	border-radius:50%;
+	height:5rem;
+	width:5rem;
+	margin:auto;
+	justify-content:center;
+	align-items:center;
+	display:flex;
+}
+.contact{
+	padding-top:2rem;
+	padding-bottom:4rem;
+}
+.email {
+	text-align:center;
+	padding-top:1.5rem;
+	box-shadow:0px 5px 10px 0px rgb(110 123 131/10%);
+	padding-bottom:1.5rem;
+}
+.email h1{
+	color:#D98880;
+}
+.email a{
+	text-decoration:none;
+	color:black;
+	font-size:1rem;
+}
+.foot p{
+	text-align:center;
+	align-items:center;
+	margin-top:1rem;
+	color:#D98880;
+}
+.footer{
+	background-color:#F9EBEA;
+}
