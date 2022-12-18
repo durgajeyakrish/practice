@@ -90,57 +90,7 @@ for (var y = height; y >= 0; y--) {
 }
 
 boardSize = 55;
-drawBoard = () => {
-  let boardOnScreen = ``;
-  board.forEach(row => {
-    row.forEach(square => {
-      boardOnScreen += `<div class=square style="top:${square.y *
-        boardSize}px; left:${square.x *
-        boardSize}px; background-color:${square.color}"></div>`;
-    });
-  });
 
-  players.forEach(player => {
-    let square = null;
-    board.forEach(row => {
-      row.forEach(square => {
-        if (square.position === player.position) {
-          boardOnScreen += `<div class=player style="top:${square.y *
-            boardSize +
-            5}px; left:${square.x * boardSize +
-            5}px;background-color:${player.color}"></div>`;
-        }
-      });
-    });
-  });
-
-  ladders.forEach(ladder => {
-    //let start = 0;
-    let startPos = { x: 0, y: 0 };
-    let endPos = { x: 0, y: 0 };
-
-    board.forEach(row => {
-      row.forEach(square => {
-        if (square.position === ladder.start) {
-          startPos.x = square.x * boardSize;
-          startPos.y = square.y * boardSize;
-        }
-
-        if (square.position === ladder.end) {
-          endPos.x = square.x * boardSize;
-          endPos.y = square.y * boardSize;
-        }
-      });
-    });
-
-    isLadder = ladder.end > ladder.start;
-
-    //if it is a ladder then it is white, otherwise snake is green
-    drawLine({ color: isLadder ? "white" : "green", startPos, endPos });
-  });
-  //get everything on the page
-  document.getElementById("board").innerHTML = boardOnScreen;
-};
 
 function drawLine({ color, startPos, endPos }) {
   var canvas = document.getElementById("canvas");
