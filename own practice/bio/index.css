@@ -6,12 +6,12 @@
 .head1{
 	padding-top:10rem;
 	font-size:3.3rem;
-	color:#D98880;
+	color:#ef9273;
 	margin-left:3rem;
 }
 .para1{
 	font-size:1.5rem;
-	color:#797D7F;
+	color:#0d0d0d;
 	margin-left:3rem;
 }
 .img1{
@@ -19,21 +19,23 @@
 	padding-bottom:5rem;	
 }
 .icn{
-	color:#D98880;
+	color:#ef9273;
 	justify-content:space-between;
 	text-align:center;
 	margin-left:2.6rem;
 }
 .page1{
 	padding-bottom:2rem;
-	background-color:#F9EBEA;
+	background-color:#fef9f8;
 }
 .btn{
 	background-color:#F3823A;
 }
+.page2{
+	background-color:#fef9f8;
+}
 .head2{
 	padding-top:5rem;
-
 }
 .para2{
 	color:#797D7F ;
@@ -52,7 +54,7 @@
 	margin-top:1rem;
 }
 .per1{
-	color:#D98880;	
+	color:#ef9273;	
 	font-size:1.2rem;
 }
 span{
@@ -78,19 +80,18 @@ span{
 	color:#D98880;
 	margin-top:2.5rem;
 }
-.card {
+.card{
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   background-color: #ffffff;
-  margin: 0 20px;
+  margin: 10px 20px;
   width: 280px;
   height: 350px;
-  border-radius: 5px;
+  border-radius:5px;
   box-shadow: 0 10px 20px -10px rgba(0, 0, 0, 0.2);
 }
-
 .card .percent {
   position: relative;
 }
@@ -114,7 +115,7 @@ span{
 .card svg circle:last-of-type {
   stroke-dasharray: 625px;
   stroke-dashoffset: calc(625px - (625px * var(--percent)) / 100);
-  stroke:#D98880; 
+  stroke:#ef9273; 
 }
 
 .card .number {
@@ -138,7 +139,7 @@ span{
 }
 
 .card:nth-child(1) svg circle:last-of-type {
-  stroke:#D98880;
+  stroke:#ef9273;
 }
 .port img{
 	border-radius:20px;
@@ -159,7 +160,7 @@ span{
 	margin-top:2rem;
 	padding:0.3rem;
 	border-radius:15px;
-	background-color:#D98880;
+	background-color:#ef9273;
 	border:none;
 }
 .portfolio{
@@ -168,15 +169,16 @@ span{
 }
 .port p{
 	margin-top:1.5rem;
+	color:#0d0d0d;
 }
 .port h4{
-	color:#D98880;
+	color:#ef9273;
 }
 .pro{
 	width:70%;
 }
 .icn1{
-	color:#D98880;
+	color:#0d0d0d;
 	font-size:5rem;
 	margin:auto;
 }
@@ -191,19 +193,20 @@ span{
 	border-radius:50%;
 	text-align:center;
 	margin:auto;
-	color:#D98880;
+	color:#ef9273;
 }
 .email iconify-icon:hover{
-	background-color:#D98880;
+	background-color:#ef9273;
 	color:white;
 }
 .email h1{
-	color:#909497;
+	color:#ef9273!important;
 	font-size:1.5rem;
 	padding:1rem;
 }
 .email p{
 	font-size:1.3rem;
+	color:#0d0d0d;
 }
 placeholder{
 	font-size:1.8rem;
@@ -256,9 +259,6 @@ placeholder{
 	box-shadow:0px 5px 10px 0px rgb(110 123 131/10%);
 	padding-bottom:1.5rem;
 }
-.email h1{
-	color:#D98880;
-}
 .email a{
 	text-decoration:none;
 	color:black;
@@ -268,8 +268,8 @@ placeholder{
 	text-align:center;
 	align-items:center;
 	margin-top:1rem;
-	color:#D98880;
+	color:black;
 }
 .footer{
-	background-color:#F9EBEA;
+	background-color:#ef9273;
 }
