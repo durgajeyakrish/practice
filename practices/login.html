@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+	<meta http-eqiv="X-UA-compatible" content="IE=Rdge">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<title>Practice</title>
+</head>
+<body>
+<section id="clients" class="py-5">
+		<div class="container">
+			<div class="row">
+				<div class="col text-center">
+					<h3 class="head-color">Clients</h3>
+					<p class="fs-2 fw-bold after-line">They trusted us</p>
+				</div>
+			</div>
+			<div class="owl-carousel brand carousel owl-theme pt-5">
+				<div class="team-play">
+					<img src="img\client-1.png" class="img-fluid">
+				</div>
+				<div class="team-play">
+					<img src="img\client-2.png" class="img-fluid">
+				</div>
+				<div class="team-play">
+					<img src="img\client-3.png" class="img-fluid">
+				</div>
+				<div class="team-play">
+					<img src="img\client-4.png" class="img-fluid">
+				</div>
+				<div class="team-play">
+					<img src="img\client-5.png" class="img-fluid">
+				</div>
+				<div class="team-play">
+					<img src="img\client-6.png" class="img-fluid">
+				</div>
+				<div class="team-play">
+					<img src="img\client-7.png" class="img-fluid">
+				</div>
+				<div class="team-play">
+					<img src="img\client-8.png" class="img-fluid">
+				</div>
+			</div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+			<script src="js/owl.carousel.min.js"></script>
+			<script>
+				$('.brand' ).owlCarousel({
+					loop: true,
+					margin: 10,
+					nav: true,
+					autoplay: true,
+					autoplayTimeout: 4000,
+					autoplayHoverPause: true,
+					responsive: {
+						0:{
+							items: 1
+						},
+						600:{
+							items: 3
+						},
+						1000:{
+							items: 6
+						}
+					}
+				})
+			</script>
+		</div>
+	</section>
+
+</body>
+</html>
