@@ -311,28 +311,91 @@ input:focus{
 	margin-left: 60px;
 }
 /*-------------Contacts section end-------------*/
-#contacts i{
-	background-color:#eb5d1e;
-	color:#fff;
-	width:34px;
-	height:34px;
+/* #contacts i{ */
+	/* background-color:#eb5d1e; */
+	/* color:#fff; */
+	/* width:34px; */
+	/* height:34px; */
+	/* border-radius:50%; */
+	/* display:inline-flex; */
+	/* justify-content:center; */
+	/* align-items:center; */
+/* } */
+/* #contacts alignitem{ */
+	/* align-items: stretch !important; */
+/* } */
+/* #contacts .b-ho:hover i{ */
+	/* color: white; */
+	/* background: #eb5d1e; */
+/* } */
+/* .bor-bot-color{ */
+	/* border-bottom: 3px solid #eb5d1e; */
+/* } */
+/* .bor-top-color{ */
+	/* border-top: 3px solid #eb5d1e; */
+/* } */
+
+.contact{
+	padding-top:2rem;
+}
+@media (min-width:375px){
+	.form{
+		padding-top:2.5rem;
+	}
+}
+@media (min-width:768px){
+	.form{
+		padding-top:2rem;
+	}
+}
+ @media (min-width:1024px){
+	.form{
+		padding-top:0rem;
+		padding-bottom:2rem;
+	}
+	.send{
+		padding-top:rem;
+	}
+}
+.info iconify-icon{
+	display:flex;
+	font-size:2rem;
 	border-radius:50%;
-	display:inline-flex;
+	background-color:#FDEDEC;
+	color:#EE6308;
+	float:left;
 	justify-content:center;
 	align-items:center;
+	padding:0.7rem;
 }
-#contacts alignitem{
-	align-items: stretch !important;
+.info iconify-icon:hover{
+	background-color:#EE6308;
+	color:white;
 }
-#contacts .b-ho:hover i{
-	color: white;
-	background: #eb5d1e;
+.info h4{
+	font-size:1.5rem;
+	padding-left:4rem;
+	color:#472813 ;
 }
-.bor-bot-color{
-	border-bottom: 3px solid #eb5d1e;
+.info p{
+	padding-left:4rem;
 }
-.bor-top-color{
-	border-top: 3px solid #eb5d1e;
+.but{
+	width:30%;
+	color:white;
+	background-color:#EE6308;
+	border:1px solid #EE6308;
+}
+.send{
+	padding-top:2rem;
+	text-align:center;
+	padding-bottom:2.7rem;
+}
+.info{
+	width:100%;
+	border-bottom:2px solid #EE6308 ;
+	border-top:2px solid #EE6308 ;
+	padding:1rem;		
 }
 /*----------footer section----------*/
 .foot-2 .iconlast iconify-icon{
@@ -359,6 +422,9 @@ input:focus{
 }
 #foot ul li{
 	list-style: none;
+}
+#foot li{
+	padding:0.5rem;
 }
 #foot a{
 	text-decoration: none;
