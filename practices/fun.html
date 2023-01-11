@@ -82,19 +82,36 @@
 			<!-- remain(m1,m2); -->
 		<!-- } -->
 		
-		let name="durga";
-			let val=funt(name){
-				function funt(name){
-				let temp=[];
-					for(i=0;i<name.length;i++){
-						if(name[i]!="a" && name[i]!="e" && name[i]!="i" && name[i]!="o" && name[i]!="u"){
-						temp++;
-						}
-					}
-					return temp;
+		<!-- let name="durga"; -->
+			<!-- let val=funt(name){ -->
+				<!-- function funt(name){ -->
+				<!-- let temp=[]; -->
+					<!-- for(i=0;i<name.length;i++){ -->
+						<!-- if(name[i]!="a" && name[i]!="e" && name[i]!="i" && name[i]!="o" && name[i]!="u"){ -->
+						<!-- temp++; -->
+						<!-- } -->
+					<!-- } -->
+					<!-- return temp; -->
+				<!-- } -->
+			<!-- } -->
+			<!-- console.log(val); -->
+			
+			
+			let name = prompt("Enter the name");
+			let letter = prompt("count of letter");
+     
+			  function nam(string, cheak) {
+				let count = 0;
+				for (let i = 0; i < string.length; i++) {
+				  if (string[i] === cheak) {
+					count++;
+				  }
 				}
-			}
-			console.log(val);
+				return count;
+			  }
+				 
+			  console.log(nam(name,letter));
+
 </script>
 </body>
 </html>
