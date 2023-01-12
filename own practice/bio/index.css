@@ -6,7 +6,8 @@
 .head1{
 	padding-top:10rem;
 	font-size:3.3rem;
-	color:#ef9273;
+	color:#1CAA8D;
+	text-align:center;
 	margin-left:3rem;
 }
 .page1{
@@ -18,17 +19,25 @@
 .para1{
 	font-size:1.5rem;
 	color:white;
+	text-align:center;
 	margin-left:3rem;
 }
 .img1{
 	padding-top:5rem;
 	padding-bottom:5rem;	
+	margin:auto;
+	display:flex;
 }
 .icn{
-	color:#ef9273;
+	color:#1CAA8D;
 	justify-content:space-between;
 	text-align:center;
+	justify-content:center;	
 	margin-left:2.6rem;
+}
+.icons1{
+	text-align:center;
+	align-items:center;
 }
 .page1{
 	padding-bottom:2rem;
@@ -57,7 +66,8 @@
 	margin-top:1rem;
 }
 .per1{
-	color:#ef9273;	
+	/* color:#ef9273;	 */
+	color:#1CAA8D;
 	font-size:1.1rem;
 }
 span{
@@ -93,7 +103,7 @@ span{
 }
 .res iconify-icon{
 	font-size:4rem;
-	color:#ef9273;
+	color:#1CAA8D;
 	margin-top:3.5rem;
 }
 .pro progress{
@@ -117,7 +127,7 @@ span{
 	color:#2b7a78; ;
 }
 .progress-bar{
-	background-color:#ef9273!important;
+	background-color:#1CAA8D!important;
 }
 
 .port img{
@@ -139,7 +149,7 @@ span{
 	margin-top:2rem;
 	padding:0.3rem;
 	border-radius:15px;
-	background-color:#ef9273;
+	background-color:#1CAA8D;
 	border:none;
 }
 .portfolio{
@@ -150,7 +160,7 @@ span{
 	margin-top:1.5rem;
 }
 .port h4{
-	color:#ef9273;
+	color:#1CAA8D;
 }
 .pro{
 	width:70%;
@@ -171,14 +181,14 @@ span{
 	border-radius:50%;
 	text-align:center;
 	margin:auto;
-	color:#ef9273;
+	color:#1CAA8D;
 }
 .email iconify-icon:hover{
-	background-color:#ef9273;
+	background-color:#1CAA8D;
 	color:white;
 }
 .email h1{
-	color:#ef9273!important;
+	color:#1CAA8D!important;
 	font-size:1.5rem;
 	padding:1rem;
 }
@@ -254,5 +264,5 @@ placeholder{
 	color:black;
 }
 .footer{
-	background-color:#ef9273;
+	background-color:#1CAA8D;
 }
