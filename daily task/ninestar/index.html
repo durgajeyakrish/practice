@@ -7,7 +7,7 @@
 	<title>Ninestars</title>
 	<link rel="icon" href="img/favicon.png" >
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
-	<link rel="stylesheet" href="bootninestar.css">
+	<link rel="stylesheet" href="index.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 	<link rel="stylesheet" href="jsfile1/owl.carousel.min.css">
 	<link rel="stylesheet" href="jsfile1/owl.theme.default.min.css">
@@ -428,7 +428,6 @@
 			</div>
 		</div>
 	</section>
-	
 	<section id="clients" class="py-5">
 		<div class="container">
 			<div class="row">
@@ -486,7 +485,6 @@
 					}
 				})
 			</script>
-		
 		</div>
 	</section>
    
@@ -501,7 +499,7 @@
 			<div class="contact">
 			<div class="row">
 				<div class="col-lg-5">
-					<div class="info">
+					<div class="info info1">
 					<div class="location">
 						<iconify-icon icon="carbon:location"></iconify-icon>
 						<h4>Location:</h4>
@@ -540,7 +538,7 @@
 							<textarea class="form-control" id="exampleFormControlTextarea1" rows="8"></textarea>
 						</div>
 					<div class="send">
-						<button type="button" class="but">Send Message</button>
+						<button type="button" class="but">Send</button>
 					</div>
 					</div>
 					</div>
@@ -619,8 +617,19 @@
 		</div>
 	</section>
 	<script src="https://code.iconify.design/iconify-icon/1.0.1/iconify-icon.min.js"></script>	
+	
+	<script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
 	<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-	<script src="https://code.iconify.design/iconify-icon/1.0.2/iconify-icon.min.js"></script>
+	<script>
+        const navLinks=document.querySelectorAll(".nav-item") ;
+        const  menuToggle=document.getElementById("navbarNavDropdown");
+        let bsCollabse=new bootstrap.Collapse(menuToggle,{toggle:false})
+        navLinks.forEach((e) =>{
+            e.addEventListener("click",()=>{bsCollabse.toggle()})
+        })
+      </script>
+	  
 </body>
 </html>

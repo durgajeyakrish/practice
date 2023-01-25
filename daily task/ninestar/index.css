@@ -31,7 +31,7 @@
 #header{
 	position: sticky;
 	top: 0;
-	z-index: 1;
+	z-index: 100;
 }
 /*----------Banner Start----------*/
 #banner{
@@ -247,6 +247,7 @@
 	background: #fef8f5;
 }
 #clients img{
+    margin: auto;
     width: 80px;
     filter: contrast(0.5);
 }
@@ -310,31 +311,6 @@ input:focus{
 	width: 50%;
 	margin-left: 60px;
 }
-/*-------------Contacts section end-------------*/
-/* #contacts i{ */
-	/* background-color:#eb5d1e; */
-	/* color:#fff; */
-	/* width:34px; */
-	/* height:34px; */
-	/* border-radius:50%; */
-	/* display:inline-flex; */
-	/* justify-content:center; */
-	/* align-items:center; */
-/* } */
-/* #contacts alignitem{ */
-	/* align-items: stretch !important; */
-/* } */
-/* #contacts .b-ho:hover i{ */
-	/* color: white; */
-	/* background: #eb5d1e; */
-/* } */
-/* .bor-bot-color{ */
-	/* border-bottom: 3px solid #eb5d1e; */
-/* } */
-/* .bor-top-color{ */
-	/* border-top: 3px solid #eb5d1e; */
-/* } */
-
 .contact{
 	padding-top:2rem;
 }
@@ -382,9 +358,11 @@ input:focus{
 }
 .but{
 	width:30%;
+	height:7vh;
 	color:white;
 	background-color:#EE6308;
 	border:1px solid #EE6308;
+	border-radius:20px 25px;
 }
 .send{
 	padding-top:2rem;
@@ -396,6 +374,16 @@ input:focus{
 	border-bottom:2px solid #EE6308 ;
 	border-top:2px solid #EE6308 ;
 	padding:1rem;		
+}
+.head3{
+	text-align:center;
+	margin-top:2rem;
+	font-size:1.9rem;
+	color: #c2b7b1;
+}
+.head4{
+	text-align:center;
+	margin-top:1rem;
 }
 /*----------footer section----------*/
 .foot-2 .iconlast iconify-icon{
@@ -443,4 +431,17 @@ input:focus{
 	width: 4rem;
 	top: 10px;
 }
- 
+@media (min-width:320px){
+.but{
+	padding-bottom:2rem;
+	font-size:1rem;
+}
+}
+@media (min-width:1440px){
+.but{
+	font-size:1.3rem;
+}
+}
+.info1{
+	padding-bottom:2rem;
+}
