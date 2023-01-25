@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facebook</title>
+	<link rel="stylesheet" href="css/form.css">
+	
+</head>
+<body>
+<script>
+
+		<!-- array methods -->
+		
+		<!-- concat -->
+			const array1 = ['a', 'b', 'c'];
+			const array2 = ['d', 'e', 'f'];
+			const array3 = array1.concat(array2);
+
+			console.log(array3);
+			
+		<!-- filter -->
+		
+			const words = ['spray', 'limit', 'elite', 'exuberant', 'destruction', 'present'];
+
+			const result = words.filter(word => word.length > 6);
+
+			console.log(result);	
+			
+		<!-- foreach -->
+		
+		<!-- const array1 = ['a', 'b', 'c'.'d','e']; -->
+
+		<!-- array1.forEach(element => console.log(element)); -->
+		
+		<!-- includes -->
+		
+		<!-- const array2 = [1, 2, 3]; -->
+
+		<!-- console.log(array1.includes(2)); -->
+		
+		
+		const elements = ['durga', 'saran', 'priya'];
+
+		console.log(elements.join());
+		
+		<!-- map -->
+		
+		<!-- const array1 = [1, 4, 9, 16]; -->
+		
+		<!-- const map1 = array1.map(x => x + 2); -->
+		
+		<!-- pop -->
+		
+		const plants = ['blue', 'orange', 'red', 'green', 'pink'];
+
+		console.log(plants.pop());
+		
+		<!-- push -->
+		
+			const animals = ['pigs', 'goats', 'sheep', 'cat'];
+
+			const count = animals.push('pubby');
+			console.log(count);
+			console.log(animals);
+			
+			<!-- reduce -->
+			
+			const red=[12,4,1];
+			var f=red.reduce((pre,cur)=>pre-cur);
+			console.log(f);
+			
+				<!-- shift -->
+			
+		const arr = [1, 2, 3];
+
+		const firstElement = arr.shift();
+
+		console.log(arr);
+		
+				<!-- sort -->
+				
+		const ar = [1, 30, 4, 21, 10];
+		ar.sort();
+		console.log(ar);
+				
+				<!-- unshift -->
+		const arr1 = [1, 2, 3];
+				
+		console.log(arr1.unshift(4, 5));
+				
+				<!-- lastIndex -->
+		const name= ['durga', 'saranya', 'Priya', 'durga'];
+
+		console.log(name.lastIndexOf('durga'));
+			
+			<!-- join-->
+		const ele = ['one', 'two', 'three'];
+		console.log(ele.join());
+			
+		
+		
+
+		
+		
+</script>
+
+</body>
+</html>
