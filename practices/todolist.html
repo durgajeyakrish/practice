@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TO_DO_LIST</title>
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet">
+<style>
+h2{
+ text-align:center;
+}
+.container{
+ display:flex;
+ border:1px solid black;
+ padding:1rem;
+ width:800px;
+ margin:auto;
+}
+
+#uls{
+ display:inline-block;
+ margin-left:2rem;
+}
+#btn{
+ 
+
+}
+</style>
+</head>
+
+<body> 
+    <div class="container">
+	    <div id="divs">
+		    <h2>TO_DO_LIST</h2>
+		    <textarea id="txt" placeholder="Write List" rows="8" cols="35" value=''></textarea>
+		    <button id="btn">ADD IT</button>
+	    </div>
+	    <div id="get">
+			<h2>YOURLIST HERE</h2>
+	    </div>
+    </div>
+<script>
+  
+	let get=document.getElementById("get"); 
+	let ul=document.createElement("ul");
+    ul.setAttribute("id","uls");
+	get.appendChild(ul);
+   
+   
+   //btn getting and function
+	let btn=document.getElementById("btn");
+	btn.addEventListener("click",myFunction);
+	
+	function myFunction(){
+      
+		//input element getting 
+	 let list=document.getElementById("txt");
+	 if(list.value===""){
+	  alert("enter value")
+	 }
+	 else{
+	   var litag=document.createElement("li");
+	    ul.appendChild(litag);
+	  litag.innerHTML=list.value;
+	  	}
+	 let icon1= document.createElement("i");
+        icon1.setAttribute("class","fa-solid fa-pen-to-square");
+        litag.appendChild(icon1);
+		
+	    let icon2 = document.createElement("i");
+      icon2.setAttribute("class","fa-solid fa-trash");
+	  litag.appendChild(icon2);
+		
+	  <!-- //variable helping -->
+		var lival=list.value;
+		list.value="";
+       //icon2 delete functions
+	  icon2.addEventListener("click",()=>{
+	     litag.remove();
+	  })
+      //icon1 edit function
+	  icon1.addEventListener("click",()=>{
+	     editFunction()
+	     list.value = lival;
+		 litag.remove();
+		 
+		})
+		function editFunction(){
+		  let divs= document.getElementById("divs");
+		   let ebutton=document.createElement("button");
+		     ebutton.innerHTML="Edit";
+		    divs.appendChild(ebutton);
+			
+			ebutton.addEventListener("click",()=>{
+				var ntag = document.createElement("li");
+				ntag.innerHTML=list.value;
+				ul.replaceChild(ntag,litag);
+			})
+			
+		     
+		}
+		
+    }
+</script>
+</body>
+</html>
