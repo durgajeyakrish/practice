@@ -99,13 +99,58 @@
 		
 			<!-- slice -->
 			
-		let n1=[10,20,30,40];
-		console.log(n1);
-		let n2=n1.length;
-		console.log(n2);
-		let n3=n1.slice(2,-2);
-		console.log(n3);
-		console.log(n1);
+				let n1=[10,20,30,40];
+				console.log(n1);
+				let n2=n1.length;
+				console.log(n2);
+				let n3=n1.slice(2,-2);
+				console.log(n3);
+				console.log(n1);
+		
+					<!-- at -->
+				const atarr= [7, 12, 5, 2, 18];
+				
+				let val= 2;
+				
+				console.log(atarr.at(val));
+				
+				<!-- includes -->
+				const ind=['a','b','c','d'];
+				console.log(ind.includes('c'));
+		
+					<!-- entries -->
+				const entries = ['a', 'b', 'c'];
+
+				const item=(array1.entries());
+
+				console.log(item.next().value);
+				
+						<!-- every -->
+					const m1= (currentValue) => currentValue < 55;
+
+					const m2= [1, 30, 39, 49, 40, 13];
+					
+					console.log(m2.every(m1));
+					
+								<!-- flat -->
+					const arr2= [0, 1, 2, [3, 4]];
+
+					console.log(arr2.flat());
+
+				
+							<!-- copywithin -->
+					const copy = ['a', 'b', 'c', 'd', 'e'];
+					
+					console.log(copy.copyWithin(0, 2, 4));
+			
+						<!-- keys -->
+					const key1 = ['a', 'b', 'c','d','h'];
+					const num= key1.keys();
+
+					for (const key of num) {
+					  console.log(key);
+					}
+			
 
 		
 		
